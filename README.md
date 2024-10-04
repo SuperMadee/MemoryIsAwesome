@@ -38,6 +38,14 @@ Memory models that use inside-trial information are the following:
 * [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-controlled Memory System](https://github.com/wbbeyourself/scm4llms)
 * [Voyager: An open-ended embodied agent with large language models](https://voyager.minedojo.org/)
 * [Memgpt: Towards LLMs as Operating Systems](https://memgpt.ai/)
+* [MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-domain Conversation](https://github.com/LuJunru/MemoChat)
+* [Prompted LLMs as Chatbot Modules for Long Open-domain Conversation](https://github.com/krafton-ai/MPC)
+* [Generative Agents: Interactive Simulacra of Human Behavior](https://github.com/joonspk-research/generative_agents)
+* [User Behavior Simulation with Large Language Model-based Agents](https://arxiv.org/abs/2306.02552)
+* [Online Adaptation of Language Models with a Memory of Amortized Contexts](https://arxiv.org/abs/2403.04317)
+* [MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents](https://arxiv.org/abs/2310.06500)
+* [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
+* [S3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984)
 
 - [x] **Cross-trial Information** - Memory that spans multiple trials or tasks that involves knowledge accumulated over time and used in different situations.
     
