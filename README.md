@@ -32,27 +32,55 @@ This process shows how the agent learns and evolves through interactions with it
 
 - [x] **Inside-trial Information** - Memory specific to the current task or interaction. It focuses on immediate information, such as actions, observations, and decisions made during the ongoing task. <br>
 
-The memory models that use inside-trial information are the following:
+The memory models that use **inside-trial information** are the following:
 * [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://github.com/zhongwanjun/MemoryBank-SiliconFriend)
   
 * [Think-in-Memory: Recalling and Post-thinking enable LLMs with Long-term Memory](https://arxiv.org/pdf/2311.08719)
+  
 * [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-controlled Memory System](https://github.com/wbbeyourself/scm4llms)
+  
 * [Voyager: An open-ended embodied agent with large language models](https://voyager.minedojo.org/)
+  
 * [Memgpt: Towards LLMs as Operating Systems](https://memgpt.ai/)
+  
 * [MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-domain Conversation](https://github.com/LuJunru/MemoChat)
+  
 * [Prompted LLMs as Chatbot Modules for Long Open-domain Conversation](https://github.com/krafton-ai/MPC)
+  
 * [Generative Agents: Interactive Simulacra of Human Behavior](https://github.com/joonspk-research/generative_agents)
+  
 * [User Behavior Simulation with Large Language Model-based Agents](https://arxiv.org/abs/2306.02552)
+  
 * [Online Adaptation of Language Models with a Memory of Amortized Contexts](https://arxiv.org/abs/2403.04317)
+  
 * [MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents](https://arxiv.org/abs/2310.06500)
+  
 * [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
+  
 * [S3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984)
 
 - [x] **Cross-trial Information** - Memory that spans multiple trials or tasks that involves knowledge accumulated over time and used in different situations.
     
-- [x] External Knowledge - Memory that comes from external resources, such as online databases, books, or magazines, rather than the agent’s own experiences or interactions.
+- [x] **External Knowledge** - Memory that comes from external resources, such as online databases, books, or magazines, rather than the agent’s own experiences or interactions.
 
+The memory models that use **both inside-trial information and external knowledge** are the following:
+* [RET-LLM: Towards a General Read-Write Memory for Large Language Models](https://arxiv.org/abs/2305.14322)
+  
+* [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://chatdatabase.github.io/)
+  
+* [RecMind: Large Language Model Powered Agent For Recommendation](https://arxiv.org/pdf/2308.14296)
 
+* [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+
+* [Character-LLM: A Trainable Agent for Role-Playing](https://github.com/choosewhatulike/trainable-agents)
+
+* [HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975)
+
+* [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://github.com/microsoft/RecAI/blob/main/InteRecAgent)
+
+* 
+
+_Personal take: Memory models integrate inside-trial information and external sources during the encoding and retrieval processes to allow the model to form stronger associations and adapt to various contexts, enhancing memory accuracy and resilience against errors._
 
 
 
