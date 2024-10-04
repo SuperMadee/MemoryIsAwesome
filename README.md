@@ -30,10 +30,12 @@ This process shows how the agent learns and evolves through interactions with it
 
 <p align="center"><img width="680" alt="image" src="https://github.com/user-attachments/assets/d538cc3c-794f-417f-af66-50cfa62258b3"></p>
 
-- [x] **Inside-trial Information** - Memory specific to the current task or interaction. It focuses on immediate information, such as actions, observations, and decisions made during the ongoing task. Memory models that use inside-trial information are the following:
+- [x] **Inside-trial Information** - Memory specific to the current task or interaction. It focuses on immediate information, such as actions, observations, and decisions made during the ongoing task. <br>
 
+Memory models that use inside-trial information are the following:
 * [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) 
-* 
+* [Think-in-Memory: Recalling and Post-thinking enable LLMs with Long-term Memory](https://arxiv.org/pdf/2311.08719)
+* [Unleashing infinite-length input capacity for large-scale language models with self-controlled memory system](https://arxiv.org/abs/2304.13343)
 
 - [x] **Cross-trial Information** - Memory that spans multiple trials or tasks that involves knowledge accumulated over time and used in different situations.
     
