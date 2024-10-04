@@ -32,7 +32,7 @@ This process shows how the agent learns and evolves through interactions with it
 
 - [x] **Inside-trial Information** - Memory specific to the current task or interaction. It focuses on immediate information, such as actions, observations, and decisions made during the ongoing task. <br>
 
-The memory models that use **inside-trial information** are the following:
+⭐ The memory models that use **inside-trial information** are the following:
 * [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://github.com/zhongwanjun/MemoryBank-SiliconFriend)
   
 * [Think-in-Memory: Recalling and Post-thinking enable LLMs with Long-term Memory](https://arxiv.org/pdf/2311.08719)
@@ -59,11 +59,13 @@ The memory models that use **inside-trial information** are the following:
   
 * [S3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984)
 
+💡 _Personal take: Memory models use inside-trial information only to focus on the specific details and features relevant to a particular task or context. This approach simplifies the model, reducing complexity and computational demands while allowing for a more precise understanding of how memory functions within controlled settings._
+
 - [x] **Cross-trial Information** - Memory that spans multiple trials or tasks that involves knowledge accumulated over time and used in different situations.
     
 - [x] **External Knowledge** - Memory that comes from external resources, such as online databases, books, or magazines, rather than the agent’s own experiences or interactions.
 
-The memory models that use **both inside-trial information and external knowledge** are the following:
+⭐ The memory models that use **both inside-trial information and external knowledge** are the following:
 * [RET-LLM: Towards a General Read-Write Memory for Large Language Models](https://arxiv.org/abs/2305.14322)
   
 * [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://chatdatabase.github.io/)
@@ -84,9 +86,27 @@ The memory models that use **both inside-trial information and external knowledg
 
 * [InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning](https://github.com/AbaciNLP/InvestLM)
 
-_Personal take: Memory models integrate inside-trial information and external sources during the encoding and retrieval processes to allow the model to form stronger associations and adapt to various contexts, enhancing memory accuracy and resilience against errors._
+💡 _Personal take: Memory models integrate inside-trial information and external sources during the encoding and retrieval processes to allow the model to form stronger associations and adapt to various contexts, enhancing memory accuracy and resilience against errors._
 
+⭐ The memory models that use **both inside-trial information and cross-trial information** are the following:
 
+* [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://ltzheng.github.io/Synapse/)
+
+* [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352)
+
+💡 _Personal take: Memory models use both inside-trial and cross-trial information to improve recall accuracy, adapt to varying contexts, recognize patterns, and enhance flexibility in memory retrieval. This approach better simulates complex, real-world memory processes._
+
+⭐ The memory models that use **all sources of information** are the following:
+
+* [Reflexion: Language Agents with Verbal Reinforcement Learning](https://github.com/noahshinn/reflexion)
+
+* [ExpeL: LLM Agents are Experiential Learners](https://github.com/LeapLabTHU/ExpeL)
+
+* [Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory](https://github.com/OpenGVLab/GITM)
+
+* [Retroformer: Retrospective large language agents with policy gradient optimization](https://github.com/weirayao/Retroformer) 
+
+💡 _Personal take: Memory models use inside-trial information, cross-trial information, and external knowledge to improve recall, adapt to contexts, generalize patterns, and enhance flexibility, creating a more accurate representation of human memory._
 
 ----
 ### References:
