@@ -32,8 +32,9 @@ This process shows how the agent learns and evolves through interactions with it
 
 - [x] **Inside-trial Information** - Memory specific to the current task or interaction. It focuses on immediate information, such as actions, observations, and decisions made during the ongoing task. <br>
 
-Memory models that use inside-trial information are the following:
-* [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) 
+The memory models that use inside-trial information are the following:
+* [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) <br>
+
 * [Think-in-Memory: Recalling and Post-thinking enable LLMs with Long-term Memory](https://arxiv.org/pdf/2311.08719)
 * [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-controlled Memory System](https://github.com/wbbeyourself/scm4llms)
 * [Voyager: An open-ended embodied agent with large language models](https://voyager.minedojo.org/)
