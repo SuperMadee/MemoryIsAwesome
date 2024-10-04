@@ -109,6 +109,18 @@ This process shows how the agent learns and evolves through interactions with it
 💡 _Personal take: Memory models use inside-trial information, cross-trial information, and external knowledge to improve recall, adapt to contexts, generalize patterns, and enhance flexibility, creating a more accurate representation of human memory._
 
 ----
+### 🧠 Memory Forms
+- refer to different ways in which memory is represented and stored. Memory forms define the structure and organization of stored information, determining how it can be accessed and utilized. It can be classified into [1] Textual and [2] Parametric Forms.
+
+<p align="center"><img width="630" alt="image" src="https://github.com/user-attachments/assets/f51d0c51-19a3-4fb1-bf80-d8d28ed86eda"></p>
+
+**Textual Form** - the information is explicitly retained and recalled by natural languages.
+In general, previous studies use the textual form memory to store four types of information including (1) complete agent-environment interactions, (2) recent agent-environment interactions, (3) retrieved agent-environment interactions, and (4) external knowledge
+
+**Parametric Form** - the memory information is encoded into parameters and implicitly influences the agent’s actions
+
+
+----
 ### References:
 [1] A Survey on the Memory Mechanism of Large Language Model-based Agents
  https://github.com/nuster1128/LLM_Agent_Memory_Survey
