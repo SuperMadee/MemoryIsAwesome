@@ -78,7 +78,11 @@ The memory models that use **both inside-trial information and external knowledg
 
 * [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://github.com/microsoft/RecAI/blob/main/InteRecAgent)
 
-* 
+* [TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage](https://arxiv.org/abs/2308.03427)
+
+* [TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315)
+
+* [InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning](https://github.com/AbaciNLP/InvestLM)
 
 _Personal take: Memory models integrate inside-trial information and external sources during the encoding and retrieval processes to allow the model to form stronger associations and adapt to various contexts, enhancing memory accuracy and resilience against errors._
 
