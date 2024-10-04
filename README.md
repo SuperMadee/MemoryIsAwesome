@@ -37,6 +37,7 @@ Memory models that use inside-trial information are the following:
 * [Think-in-Memory: Recalling and Post-thinking enable LLMs with Long-term Memory](https://arxiv.org/pdf/2311.08719)
 * [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-controlled Memory System](https://github.com/wbbeyourself/scm4llms)
 * [Voyager: An open-ended embodied agent with large language models](https://voyager.minedojo.org/)
+* [Memgpt: Towards LLMs as Operating Systems](https://memgpt.ai/)
 
 - [x] **Cross-trial Information** - Memory that spans multiple trials or tasks that involves knowledge accumulated over time and used in different situations.
     
