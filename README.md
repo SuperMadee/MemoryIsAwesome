@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/40942f89-1a98-467e-ab18-0c9657484759)# Memory is Awesome 🧠
+# Memory is Awesome 🧠
 
 A memory can be defined as:
 - the actions and observations within a single trial, where a trial is a complete agent-environment interaction sequence involving a task.
