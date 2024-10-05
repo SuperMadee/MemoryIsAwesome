@@ -1,4 +1,4 @@
-# Memory is Awesome 🧠
+![image](https://github.com/user-attachments/assets/40942f89-1a98-467e-ab18-0c9657484759)# Memory is Awesome 🧠
 
 A memory can be defined as:
 - the actions and observations within a single trial, where a trial is a complete agent-environment interaction sequence involving a task.
@@ -186,10 +186,23 @@ These memory models store **complete interactions, retrieved interactions, and e
 
 * [Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory](https://github.com/OpenGVLab/GITM)
 
-while [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://github.com/microsoft/RecAI/blob/main/InteRecAgent) stores **retrieved interactions, recent interactions and external knowledge textual forms** of information
+while [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://github.com/microsoft/RecAI/blob/main/InteRecAgent) stores **retrieved interactions, recent interactions, and external knowledge textual forms** of information
 
 **Parametric Form** - the memory information is encoded into parameters and implicitly influences the agent’s actions
 
+💾 **Fine-tuning Methods**: Involves training or fine-tuning the agent using additional data to store memory as model parameters,  which allows the agent to learn domain-specific knowledge for particular tasks or environments.
+
+* [Retroformer: Retrospective large language agents with policy gradient optimization](https://github.com/weirayao/Retroformer)
+
+* [Character-LLM: A Trainable Agent for Role-Playing](https://github.com/choosewhatulike/trainable-agents)
+
+* [HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975)
+
+* [InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning](https://github.com/AbaciNLP/InvestLM)
+
+💾 **Memory Editing Methods**: updates only specific facts or parts of the memory, making it more efficient for certain applications.
+
+* [Online Adaptation of Language Models with a Memory of Amortized Contexts](https://arxiv.org/abs/2403.04317)
 
 ----
 ### References:
