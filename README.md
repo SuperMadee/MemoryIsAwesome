@@ -4,14 +4,14 @@ A memory can be defined as:
 - the actions and observations within a single trial, where a trial is a complete agent-environment interaction sequence involving a task.
 - the actions and observations not only from the current trial but also from past trials and external sources of knowledge.
 
-<img width="896" alt="image" src="https://github.com/user-attachments/assets/11bf212b-b1fb-4057-ac69-4a59d46bfced">
+<p align="center"><img width="896" alt="image" src="https://github.com/user-attachments/assets/11bf212b-b1fb-4057-ac69-4a59d46bfced"></p>
 
 ---
 ### 🧠 How does an agent interact with the environment?
 This process shows how the agent learns and evolves through interactions with its environment <br>
 (through tasks labeled as "Task A" and "Task B"). <br>
 
-<img width="928" alt="image" src="https://github.com/user-attachments/assets/ed0136e6-9541-49a3-b428-e3bf3c719c5c">
+<p align="center"><img width="928" alt="image" src="https://github.com/user-attachments/assets/ed0136e6-9541-49a3-b428-e3bf3c719c5c"></p>
 <br> <br>
 
 **Components:**
