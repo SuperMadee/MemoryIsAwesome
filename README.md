@@ -157,9 +157,36 @@ In general, previous studies use the textual form memory to store four types of 
 
 * [S3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984)
 
+Note:
+These memory models store **both recent and retrieved interactions** of information:
+
+* [Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-controlled Memory System](https://github.com/wbbeyourself/scm4llms)
+
+* [Memgpt: Towards LLMs as Operating Systems](https://memgpt.ai/)
+
+* [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://github.com/microsoft/RecAI/blob/main/InteRecAgent)
+
 💾 **External Knowledge**: Involves accessing and storing external information, such as predefined datasets or online resources, which can assist in decision-making when the agent encounters unfamiliar objects or tasks. <br>
 
+These memory models store **both complete interaction and external knowledge textual forms** of information:
 
+* [Retroformer: Retrospective large language agents with policy gradient optimization](https://github.com/weirayao/Retroformer)
+
+* [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+
+* [Reflexion: Language Agents with Verbal Reinforcement Learning](https://github.com/noahshinn/reflexion)
+
+* [TPTU: Large Language Model-based AI Agents for Task Planning and Tool Usage](https://arxiv.org/abs/2308.03427)
+
+* [TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315)
+
+These memory models store **complete interactions, retrieved interactions, and external knowledge textual forms** of information:
+
+* [ExpeL: LLM Agents are Experiential Learners](https://github.com/LeapLabTHU/ExpeL)
+
+* [Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory](https://github.com/OpenGVLab/GITM)
+
+while [Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations](https://github.com/microsoft/RecAI/blob/main/InteRecAgent) stores **retrieved interactions, recent interactions and external knowledge textual forms** of information
 
 **Parametric Form** - the memory information is encoded into parameters and implicitly influences the agent’s actions
 
