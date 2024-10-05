@@ -115,7 +115,51 @@ This process shows how the agent learns and evolves through interactions with it
 <p align="center"><img width="630" alt="image" src="https://github.com/user-attachments/assets/f51d0c51-19a3-4fb1-bf80-d8d28ed86eda"></p>
 
 **Textual Form** - the information is explicitly retained and recalled by natural languages.
-In general, previous studies use the textual form memory to store four types of information including (1) complete agent-environment interactions, (2) recent agent-environment interactions, (3) retrieved agent-environment interactions, and (4) external knowledge
+In general, previous studies use the textual form memory to store four types of information, including (1) complete agent-environment interactions, (2) recent agent-environment interactions, (3) retrieved agent-environment interactions, and (4) external knowledge
+
+💾 **Complete Interactions**: Stores all past interactions between the agent and the environment. <br>
+
+* [RecMind: Large Language Model Powered Agent For Recommendation](https://arxiv.org/pdf/2308.14296)
+  
+* [HuaTuo: Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975)
+  
+* [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
+
+* [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://arxiv.org/abs/2308.00352)
+
+* [InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning](https://github.com/AbaciNLP/InvestLM)
+
+💾 **Recent Interactions**: Focuses on storing only the most recent interactions, allowing the agent to prioritize recent, relevant data while discarding older, less relevant information. <br>
+
+* [Character-LLM: A Trainable Agent for Role-Playing](https://github.com/choosewhatulike/trainable-agents)
+
+💾 **Retrieved Interactions**: Uses retrieval-based approaches to select and store important and relevant memories based on their relevance to the current task or context. <br>
+
+* [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://github.com/zhongwanjun/MemoryBank-SiliconFriend)
+
+* [RET-LLM: Towards a General Read-Write Memory for Large Language Models](https://arxiv.org/abs/2305.14322)
+
+* [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://chatdatabase.github.io/)
+  
+* [Think-in-Memory: Recalling and Post-thinking enable LLMs with Long-term Memory](https://arxiv.org/pdf/2311.08719)
+
+* [Voyager: An open-ended embodied agent with large language models](https://voyager.minedojo.org/)
+
+* [MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-domain Conversation](https://github.com/LuJunru/MemoChat)
+
+* [Prompted LLMs as Chatbot Modules for Long Open-domain Conversation](https://github.com/krafton-ai/MPC)
+
+* [Generative Agents: Interactive Simulacra of Human Behavior](https://github.com/joonspk-research/generative_agents)
+
+* [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://ltzheng.github.io/Synapse/)
+
+* [MetaAgents: Simulating Interactions of Human Behaviors for LLM-based Task-oriented Coordination via Collaborative Generative Agents](https://arxiv.org/abs/2310.06500)
+
+* [S3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984)
+
+💾 **External Knowledge**: Involves accessing and storing external information, such as predefined datasets or online resources, which can assist in decision-making when the agent encounters unfamiliar objects or tasks. <br>
+
+
 
 **Parametric Form** - the memory information is encoded into parameters and implicitly influences the agent’s actions
 
