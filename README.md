@@ -627,24 +627,24 @@ Based on current research, future directions include:
 
 This repository synthesizes insights from the following surveys and papers:
 
-| Survey | Year |
-|--------|------|
-| [Memory in the Age of AI Agents: A Survey](https://arxiv.org/abs/2512.13564) [[GitHub]](https://github.com/Shichun-Liu/Agent-Memory-Paper-List) | 2025 |
-| [Memory-Augmented Transformers: From Neuroscience Principles to Technical Solutions](https://arxiv.org/abs/2508.10824) | 2025 |
-| [From S4 to Mamba: A Comprehensive Survey on Structured State Space Models](https://arxiv.org/abs/2503.18970) | 2025 |
-| [From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs](https://arxiv.org/abs/2504.15965) | 2025 |
-| [Retrieval-Augmented Generation for Natural Language Processing: A Survey](https://arxiv.org/abs/2407.13193) | 2025 |
-| [A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI](https://arxiv.org/abs/2505.01458) | 2025 |
-| [KV Cache Compression for Inference Efficiency in LLMs: A Survey](https://arxiv.org/abs/2412.19442) | 2024 |
-| [A Comprehensive Survey of Continual Learning: Theory, Method and Application](https://arxiv.org/abs/2302.00487) [[GitHub]](https://github.com/Wang-ML-Lab/llm-continual-learning-survey) | 2024 |
-| [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) | 2024 |
-| [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) [[GitHub]](https://github.com/nuster1128/LLM_Agent_Memory_Survey) | 2024 |
-| [Robot Learning in the Era of Foundation Models: A Survey](https://arxiv.org/abs/2311.14379) | 2023 |
-| [Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence](https://www.techrxiv.org/users/810975/articles/1267314-memory-in-LLM-based-multi-agent-systems-a-survey-on-mechanisms-challenges-and-collective-intelligence) | 2025 |
+**Surveys**
 
-| Paper | Year |
-|-------|------|
-| [Continual Learning as Computationally Constrained Reinforcement Learning](https://arxiv.org/abs/2307.04345) | 2023 |
+- [Memory in the Age of AI Agents: A Survey](https://arxiv.org/abs/2512.13564) (2025) [[GitHub]](https://github.com/Shichun-Liu/Agent-Memory-Paper-List)
+- [Memory-Augmented Transformers: From Neuroscience Principles to Technical Solutions](https://arxiv.org/abs/2508.10824) (2025)
+- [From S4 to Mamba: A Comprehensive Survey on Structured State Space Models](https://arxiv.org/abs/2503.18970) (2025)
+- [From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs](https://arxiv.org/abs/2504.15965) (2025)
+- [Retrieval-Augmented Generation for Natural Language Processing: A Survey](https://arxiv.org/abs/2407.13193) (2025)
+- [A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI](https://arxiv.org/abs/2505.01458) (2025)
+- [KV Cache Compression for Inference Efficiency in LLMs: A Survey](https://arxiv.org/abs/2412.19442) (2024)
+- [A Comprehensive Survey of Continual Learning: Theory, Method and Application](https://arxiv.org/abs/2302.00487) (2024) [[GitHub]](https://github.com/Wang-ML-Lab/llm-continual-learning-survey)
+- [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) (2024)
+- [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) (2024) [[GitHub]](https://github.com/nuster1128/LLM_Agent_Memory_Survey)
+- [Robot Learning in the Era of Foundation Models: A Survey](https://arxiv.org/abs/2311.14379) (2023)
+- [Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence](https://www.techrxiv.org/users/810975/articles/1267314-memory-in-LLM-based-multi-agent-systems-a-survey-on-mechanisms-challenges-and-collective-intelligence) (2025)
+
+**Papers**
+
+- [Continual Learning as Computationally Constrained Reinforcement Learning](https://arxiv.org/abs/2307.04345) (2023)
 
 ---
 
