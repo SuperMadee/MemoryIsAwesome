@@ -172,11 +172,11 @@ Memory dynamics describe the operational lifecycle of memory.
 
 ### 📚 Factual Memory
 
-Stores knowledge, facts, user preferences, and world knowledge.
-
-> 💡 **Why use Factual Memory?** Factual memory allows agents to maintain consistent knowledge about users, domains, and the world. It enables personalization, reduces repetitive queries, and ensures agents can provide accurate, up-to-date information across sessions.
+> **Factual Memory** (also called Semantic Memory) stores general world knowledge, facts, and information about entities and their relationships. It answers "what do I know?" and provides the knowledge base that agents draw upon for reasoning and question-answering.
 
 #### 🔤 **Token-level Factual Memory**
+
+> **Token-level Factual Memory** stores world knowledge, facts, and semantic information as explicit text or structured data (e.g., knowledge graphs, databases, retrieved documents). This is the most common form of external memory in RAG systems, where facts are retrieved as text chunks and injected into the context window.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
@@ -294,6 +294,8 @@ Stores knowledge, facts, user preferences, and world knowledge.
 
 #### ⚙️ **Parametric Factual Memory**
 
+> **Parametric Factual Memory** encodes factual knowledge directly into model weights through training or fine-tuning. This includes knowledge editing methods (ROME, MEMIT), adapter-based knowledge injection (K-Adapter, LoRA), and continual learning approaches that update model parameters to incorporate new facts.
+
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
 | Pretraining with Hierarchical Memories | 2025 | Pre-trains models with separate memory modules for common and rare knowledge, allowing efficient storage of long-tail facts in external memory while keeping frequent knowledge in model parameters. | [[arXiv]](https://arxiv.org/abs/2510.02375) |
@@ -316,6 +318,8 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | ELLA | 2013 | Proposes efficient lifelong learning through shared task knowledge bases, enabling rapid learning of new tasks by leveraging previously learned parameter configurations. | [[ICML]](https://proceedings.mlr.press/v28/ruvolo13.html) |
 
 #### 🧬 **Latent Factual Memory**
+
+> **Latent Factual Memory** stores factual information in continuous vector representations or hidden states. This includes memory-augmented architectures (Neural Turing Machines, Memorizing Transformers), state space models (Mamba, RWKV), and learned memory tokens that compress knowledge into dense representations.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
@@ -341,11 +345,11 @@ Stores knowledge, facts, user preferences, and world knowledge.
 
 ### 🎓 Experiential Memory
 
-Stores insights, learned skills, and procedural knowledge from past experiences.
-
-> 💡 **Why use Experiential Memory?** Experiential memory enables agents to learn from successes and failures, accumulate reusable skills, and improve performance over time. It transforms agents from stateless responders into continuously evolving systems that get better with experience.
+> **Experiential Memory** (also called Episodic or Procedural Memory) stores records of past experiences, interactions, and learned skills. It answers "what have I done?" and enables agents to learn from past successes and failures, accumulate skills, and improve over time.
 
 #### 🔤 **Token-level Experiential Memory**
+
+> **Token-level Experiential Memory** stores past experiences, interactions, and learned skills as explicit records (e.g., conversation logs, action trajectories, skill libraries). Agents retrieve relevant past experiences to inform current decisions, enabling learning from trial-and-error and skill accumulation.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
@@ -424,6 +428,8 @@ Stores insights, learned skills, and procedural knowledge from past experiences.
 
 #### ⚙️ **Parametric Experiential Memory**
 
+> **Parametric Experiential Memory** encodes learned experiences and skills into model parameters through reinforcement learning, imitation learning, or continual fine-tuning. This includes RLHF, policy gradient methods, and approaches that update model weights based on interaction feedback.
+
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
 | AgentEvolver | 2025 | Enables agents to evolve their own capabilities through parameter updates based on task performance, achieving self-improvement without human intervention. | [[arXiv]](https://arxiv.org/abs/2511.10395) |
@@ -443,17 +449,19 @@ Stores insights, learned skills, and procedural knowledge from past experiences.
 
 #### 🧬 **Latent Experiential Memory**
 
+> **Latent Experiential Memory** stores experiences as latent representations, such as experience replay buffers in RL or learned skill embeddings. These compressed representations enable efficient storage and generalization across similar experiences.
+
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
 | Auto-scaling Continuous Memory | 2025 | Dynamically scales continuous memory representations based on GUI complexity, automatically adjusting memory capacity for efficient desktop automation across varying interface states. | [[arXiv]](https://arxiv.org/abs/2510.09038) |
 
 ### ⚡ Working Memory
 
-Manages active context during task execution.
-
-> 💡 **Why use Working Memory?** Working memory enables agents to handle long-horizon tasks by maintaining relevant context without overwhelming the context window. It supports complex reasoning, multi-step planning, and tasks that exceed the model's native context length.
+> **Working Memory** (also called Short-term Memory) manages the currently active context and information being processed. It answers "what am I focusing on now?" and handles the limited attention window, deciding what to keep, compress, or discard during extended interactions.
 
 #### 🔤 **Token-level Working Memory**
+
+> **Token-level Working Memory** manages the active context window through explicit text manipulation—deciding what information to keep, summarize, or discard as conversations extend beyond context limits. This includes context compression, summarization, and selective attention mechanisms.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
@@ -471,12 +479,16 @@ Manages active context during task execution.
 
 #### ⚙️ **Parametric Working Memory**
 
+> **Parametric Working Memory** implements working memory through learned model components, such as attention mechanisms that learn what to focus on, or architectural modifications that improve context utilization efficiency.
+
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
 | Lightning Attention | 2025 | Achieves constant-speed inference regardless of sequence length through linear attention with learned decay patterns. | [[OpenReview]](https://openreview.net/forum?id=Lwm6TiUP4X) |
 | Attention Sinks | 2024 | Maintains stable attention patterns in streaming by preserving initial sink tokens that anchor the attention distribution. | [[OpenReview]](https://openreview.net/forum?id=NG7sS51zVF) |
 
 #### 🧬 **Latent Working Memory**
+
+> **Latent Working Memory** manages active context through compressed latent representations, including KV cache optimization, recurrent memory states, and memory tokens. These approaches reduce memory footprint while preserving essential information for ongoing computation.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
