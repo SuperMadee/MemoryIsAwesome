@@ -184,6 +184,15 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | Embodied VideoAgent | 2025 | Persistent memory from egocentric videos and embodied sensors | [[arXiv]](https://arxiv.org/abs/2501.00358) |
 | Human-inspired Episodic Memory | 2025 | Episodic memory for infinite context LLMs | [[OpenReview]](https://openreview.net/forum?id=BI2int5SAC) |
 | Zep | 2025 | A temporal knowledge graph architecture for agent memory | [[arXiv]](https://arxiv.org/abs/2501.13956) |
+| MemR3 | 2025 | Memory retrieval via reflective reasoning for LLM agents | [[arXiv]](https://arxiv.org/abs/2512.20237) |
+| Memoria | 2025 | Scalable agentic memory framework with knowledge graph for personalized AI | [[arXiv]](https://arxiv.org/abs/2512.12686) |
+| CogMem | 2025 | Cognitive memory architecture for sustained multi-turn reasoning | [[arXiv]](https://arxiv.org/abs/2512.14118) |
+| Memory Bear | 2025 | Human-like memory architecture from memory to cognition toward AGI | [[arXiv]](https://arxiv.org/abs/2512.20651) |
+| Hindsight | 2025 | Building agent memory that retains, recalls, and reflects | [[arXiv]](https://arxiv.org/abs/2512.12818) |
+| GR-Agent | 2025 | Adaptive graph reasoning agent with memory under incomplete knowledge | [[arXiv]](https://arxiv.org/abs/2512.14766) |
+| Collaborative Memory | 2025 | Multi-user memory sharing in LLM agents with dynamic access control | [[arXiv]](https://arxiv.org/abs/2505.18279) |
+| Intrinsic Memory Agents | 2025 | Heterogeneous multi-agent LLM systems with structured contextual memory | [[arXiv]](https://arxiv.org/abs/2508.08997) |
+| Memory as a Service | 2025 | Rethinking contextual memory as service-oriented modules for collaborative agents | [[arXiv]](https://arxiv.org/abs/2506.22815) |
 | A-MEM | 2025 | Agentic memory for LLM agents | [[arXiv]](https://arxiv.org/abs/2502.12110) |
 | Unveiling Privacy Risks | 2025 | Privacy risks in LLM agent memory | [[arXiv]](https://arxiv.org/abs/2502.13172) |
 | Mem2Ego | 2025 | Empowering VLMs with global-to-ego memory for long-horizon embodied navigation | [[arXiv]](https://arxiv.org/abs/2502.14254) |
@@ -194,6 +203,10 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | Zero-RAG | 2025 | Retrieval-augmented generation with zero redundant knowledge | [[arXiv]](https://arxiv.org/abs/2511.00505) |
 | RAG with Hierarchical Knowledge | 2025 | Retrieval-augmented generation with hierarchical knowledge | [[arXiv]](https://arxiv.org/abs/2503.10150) |
 | RoboMemory | 2025 | Brain-inspired multi-memory agentic framework for interactive environmental learning | [[arXiv]](https://arxiv.org/abs/2508.01415) |
+| Ella | 2025 | Embodied lifelong learning agent with episodic and semantic memory | [[arXiv]](https://arxiv.org/abs/2506.24019) |
+| Mind Palace | 2025 | Reasoning and planning for long-term active embodied QA | [[arXiv]](https://arxiv.org/abs/2507.12846) |
+| Neural Brain | 2025 | Neuroscience-inspired framework for embodied agents | [[arXiv]](https://arxiv.org/abs/2505.07634) |
+| LLM-Empowered Embodied | 2025 | Memory-augmented task planning for household robotics | [[arXiv]](https://arxiv.org/abs/2504.21716) |
 | Graph2Nav | 2025 | 3D object-relation graph generation for robot navigation | [[arXiv]](https://arxiv.org/abs/2504.16782) |
 | Episodic Memory for Video | 2025 | Episodic memory representation for long-form video understanding | [[arXiv]](https://arxiv.org/abs/2508.09486) |
 | AI PERSONA | 2024 | Towards life-long personalization of LLMs | [[arXiv]](https://arxiv.org/abs/2412.13103) |
@@ -263,6 +276,10 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
 | Memory³ | 2025 | Language modeling with explicit memory | [[arXiv]](https://arxiv.org/abs/2407.01178) |
+| HMT | 2025 | Hierarchical Memory Transformer for efficient long context processing | [[arXiv]](https://arxiv.org/abs/2405.06067) |
+| Mamba | 2024 | Linear-time sequence modeling with selective state spaces | [[arXiv]](https://arxiv.org/abs/2312.00752) [[GitHub]](https://github.com/state-spaces/mamba) |
+| Mamba-2 | 2024 | Transformers are SSMs: generalized models and efficient algorithms | [[arXiv]](https://arxiv.org/abs/2405.21060) |
+| An Empirical Study of Mamba | 2024 | 8B-parameter Mamba vs Transformer comparison | [[arXiv]](https://arxiv.org/abs/2406.07887) |
 | General Continuous Memory | 2025 | Towards general continuous memory for vision-language models | [[arXiv]](https://arxiv.org/abs/2505.17670) |
 | M+ | 2025 | Extending MemoryLLM with scalable long-term memory | [[arXiv]](https://arxiv.org/abs/2502.00592) |
 | R3Mem | 2025 | Bridging memory retention and retrieval via reversible compression | [[arXiv]](https://arxiv.org/abs/2502.15957) |
@@ -283,6 +300,14 @@ Stores insights, learned skills, and procedural knowledge from past experiences.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
+| Memory-R1 | 2025 | Enhancing LLM agents to manage memories via reinforcement learning | [[arXiv]](https://arxiv.org/abs/2508.19828) |
+| MemOrb | 2025 | Plug-and-play verbal-reinforcement memory for e-commerce customer service | [[arXiv]](https://arxiv.org/abs/2509.18713) |
+| Dynamic Affective Memory | 2025 | Affective memory management for personalized LLM agents | [[arXiv]](https://arxiv.org/abs/2510.27418) |
+| Preference-Aware Memory | 2025 | Memory update mechanism for tracking evolving user preferences | [[arXiv]](https://arxiv.org/abs/2510.09720) |
+| Mem-PAL | 2025 | Memory-based personalized dialogue assistants for long-term interaction | [[arXiv]](https://arxiv.org/abs/2511.13410) |
+| PersonalAgent | 2025 | Proactive personalization through profile customization for users | [[arXiv]](https://arxiv.org/abs/2512.15302) |
+| Enabling Personalized Long-term | 2025 | Persistent memory and user profiles for LLM-based agents | [[arXiv]](https://arxiv.org/abs/2510.07925) |
+| LD-Agent | 2024 | LLM-powered personalized agent for long-term dialogue | [[arXiv]](https://arxiv.org/abs/2406.05925) |
 | Agentic Context Engineering | 2025 | Evolving contexts for self-improving language models | [[arXiv]](https://arxiv.org/abs/2510.04618) |
 | FLEX | 2025 | Continuous agent evolution via forward learning from experience | [[arXiv]](https://arxiv.org/abs/2511.06449) |
 | Scaling Agent Learning | 2025 | Scaling agent learning via experience synthesis | [[arXiv]](https://arxiv.org/abs/2511.03773) |
@@ -395,6 +420,14 @@ Manages active context during task execution.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
+| EvicPress | 2025 | Joint KV-cache compression and eviction for efficient LLM serving | [[arXiv]](https://arxiv.org/abs/2512.14946) |
+| ChunkKV | 2025 | Semantic-preserving KV cache compression for long-context LLM inference | [[arXiv]](https://arxiv.org/abs/2502.00299) |
+| ClusterKV | 2024 | Manipulating LLM KV cache in semantic space for recallable compression | [[arXiv]](https://arxiv.org/abs/2412.03213) |
+| SmallKV | 2025 | Small model assisted compensation of KV cache compression | [[arXiv]](https://arxiv.org/abs/2508.02751) |
+| KVCompose | 2025 | Efficient structured KV cache compression with composite tokens | [[arXiv]](https://arxiv.org/abs/2509.05165) |
+| Expected Attention | 2025 | KV cache compression by estimating attention from future queries | [[arXiv]](https://arxiv.org/abs/2510.00636) |
+| MemMamba | 2025 | Rethinking memory patterns in state space models | [[arXiv]](https://arxiv.org/abs/2510.03279) |
+| KV Cache Survey | 2024 | Survey on LLM acceleration based on KV cache management | [[arXiv]](https://arxiv.org/abs/2412.19442) |
 | Time-VLM | 2025 | Exploring multimodal VLMs for augmented time series forecasting | [[arXiv]](https://arxiv.org/abs/2502.04395) |
 | SoftCoT | 2025 | Soft chain-of-thought for efficient reasoning with LLMs | [[ACL]](https://aclanthology.org/2025.acl-long.1137/) |
 | MemoRAG | 2025 | Boosting long context processing with global memory-enhanced retrieval | [[ACM]](https://doi.org/10.1145/3696410.3714805) |
@@ -418,6 +451,15 @@ Manages active context during task execution.
 | Focused Transformer | 2024 | Contrastive training for context scaling | [[NeurIPS]](http://papers.nips.cc/paper_files/paper/2023/hash/8511d06d5590f4bda24d42087802cc81-Abstract-Conference.html) |
 | In-Context Autoencoder | 2023 | Context compression in a large language model | [[arXiv]](https://arxiv.org/abs/2307.06945) |
 | Memorizing Transformers | 2022 | Memorizing transformers for long-range attention | [[OpenReview]](https://openreview.net/forum?id=TrjbxzRcnf-) |
+| Recurrent Memory Transformer | 2022 | Segment-level recurrent Transformer with memory tokens | [[NeurIPS]](https://openreview.net/forum?id=Uynr3iPhksa) [[GitHub]](https://github.com/booydar/recurrent-memory-transformer) |
+| Scaling RMT to 1M Tokens | 2023 | Extending input context length to 2M tokens with RMT | [[arXiv]](https://arxiv.org/abs/2304.11062) |
+| Transformer-XL | 2019 | Segment-level recurrence mechanism for long sequences | [[arXiv]](https://arxiv.org/abs/1901.02860) [[GitHub]](https://github.com/kimiyoung/transformer-xl) |
+| Compressive Transformer | 2020 | Attentive sequence models with compressed memory | [[arXiv]](https://arxiv.org/abs/1911.05507) |
+| Infini-Attention | 2024 | Infinite context transformers with compressive memory | [[arXiv]](https://arxiv.org/abs/2404.07143) |
+| Longformer | 2020 | Long-document transformer with linear complexity | [[arXiv]](https://arxiv.org/abs/2004.05150) [[GitHub]](https://github.com/allenai/longformer) |
+| BigBird | 2020 | Sparse attention for longer sequences | [[NeurIPS]](https://proceedings.neurips.cc/paper/2020/hash/c8512d142a2d849725f31a9a7a361ab9-Abstract.html) |
+| Neural Turing Machine | 2014 | Neural network with external memory matrix | [[arXiv]](https://arxiv.org/abs/1410.5401) |
+| Differentiable Neural Computer | 2016 | Hybrid computing with external memory | [[Nature]](https://www.nature.com/articles/nature20101) |
 | XMem | 2022 | Long-term video object segmentation with an Atkinson-Shiffrin memory model | [[arXiv]](https://arxiv.org/abs/2207.07115) |
 
 ---
@@ -428,9 +470,12 @@ Manages active context during task execution.
 
 | Benchmark | Year | Focus | Context Length | Links |
 |-----------|------|-------|----------------|-------|
+| **Evo-Memory** | 2025 | Self-evolving memory and test-time learning | Various | [[arXiv]](https://arxiv.org/abs/2511.20857) |
+| **MemBench** | 2025 | Comprehensive memory evaluation (effectiveness, efficiency, capacity) | Various | [[arXiv]](https://arxiv.org/abs/2506.21605) |
 | **FindingDory** | 2025 | Memory evaluation in embodied agents | Various | [[arXiv]](https://arxiv.org/abs/2506.15635) [[HuggingFace]](https://huggingface.co/yali30/findingdory-qwen2.5-VL-3B-finetuned) |
 | **MemoryBench** | 2025 | Memory and continual learning | Various | [[arXiv]](https://arxiv.org/abs/2510.17281) |
 | **MemoryAgentBench** | 2025 | Incremental multi-turn interactions | Various | [[arXiv]](https://arxiv.org/abs/2507.05257) |
+| **Memento (Benchmark)** | 2025 | Personalized embodied assistance evaluation | Various | [[arXiv]](https://arxiv.org/abs/2505.16348) |
 | **HaluMem** | 2025 | Evaluating hallucinations in memory systems | Various | [[arXiv]](https://arxiv.org/abs/2505.00000) |
 | **LoCoMo** | 2024 | Very long-term conversational memory | ~9K tokens, 35 sessions | [[arXiv]](https://arxiv.org/abs/2402.17753) [[Website]](https://snap-research.github.io/locomo/) |
 | **LongMemEval** | 2024 | Long-term interactive memory | ~115K-1.5M tokens | [[arXiv]](https://arxiv.org/abs/2410.10813) [[GitHub]](https://github.com/xiaowu0162/LongMemEval) |
@@ -453,7 +498,8 @@ Manages active context during task execution.
 |-----------|------|-------------|-------|
 | **Mem0** | 2025 | Production-ready memory for AI agents with graph-based storage | [[GitHub]](https://github.com/mem0ai/mem0) [[arXiv]](https://arxiv.org/abs/2504.19413) |
 | **A-MEM** | 2025 | Agentic memory with Zettelkasten-inspired organization | [[GitHub]](https://github.com/agiresearch/A-mem) [[arXiv]](https://arxiv.org/abs/2502.12110) |
-| **Zep** | 2025 | Temporal knowledge graph for agent memory | [[GitHub]](https://github.com/getzep/zep) [[arXiv]](https://arxiv.org/abs/2501.13956) |
+| **Zep/Graphiti** | 2025 | Temporal knowledge graph for agent memory | [[GitHub]](https://github.com/getzep/zep) [[arXiv]](https://arxiv.org/abs/2501.13956) |
+| **Memory-R1** | 2025 | RL-based memory management for LLM agents | [[arXiv]](https://arxiv.org/abs/2508.19828) |
 | **MemOS** | 2025 | Operating system for memory-augmented generation in LLMs | [[GitHub]](https://github.com/MemoryAgent/MemOS) |
 | **PowerMem** | 2025 | Agent-powered long-term memory with Ebbinghaus forgetting curve | [[GitHub]](https://github.com/Teingi/PowerMem) |
 | **HippoRAG** | 2024 | Neurobiologically inspired long-term memory with knowledge graphs | [[GitHub]](https://github.com/OSU-NLP-Group/HippoRAG) [[arXiv]](https://arxiv.org/abs/2405.14831) |
@@ -506,6 +552,12 @@ This repository synthesizes insights from the following surveys:
 
 | Survey | Year | Links |
 |--------|------|-------|
+| Memory in the Age of AI Agents: A Survey | 2025 | [[arXiv]](https://arxiv.org/abs/2512.13564) [[GitHub]](https://github.com/Shichun-Liu/Agent-Memory-Paper-List) |
+| Memory-Augmented Transformers: From Neuroscience Principles to Technical Solutions | 2025 | [[arXiv]](https://arxiv.org/abs/2508.10824) |
+| From S4 to Mamba: A Comprehensive Survey on Structured State Space Models | 2025 | [[arXiv]](https://arxiv.org/abs/2503.18970) |
+| Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective | 2025 | [[TechRxiv]](https://www.techrxiv.org/) |
+| KV Cache Compression for Inference Efficiency in LLMs: A Review | 2025 | [[arXiv]](https://arxiv.org/abs/2508.06297) |
+| Continual Learning as Computationally Constrained Reinforcement Learning | 2023 | [[arXiv]](https://arxiv.org/abs/2307.04345) |
 | From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs | 2025 | [[arXiv]](https://arxiv.org/abs/2504.15965) |
 | Retrieval-Augmented Generation for Natural Language Processing: A Survey | 2025 | [[arXiv]](https://arxiv.org/abs/2407.13193) |
 | A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI | 2025 | [[arXiv]](https://arxiv.org/abs/2505.01458) |
