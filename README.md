@@ -9,6 +9,13 @@
   — Elie Wiesel
 </p>
 
+<p align="center">
+  <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-279+-blue" alt="Papers"></a>
+  <a href="#-benchmarks--evaluation"><img src="https://img.shields.io/badge/Benchmarks-9+-green" alt="Benchmarks"></a>
+  <a href="#-open-source-frameworks"><img src="https://img.shields.io/badge/Frameworks-9+-orange" alt="Frameworks"></a>
+  <a href="#-references"><img src="https://img.shields.io/badge/Surveys-12+-purple" alt="Surveys"></a>
+</p>
+
 ---
 
 ## 📖 Table of Contents
@@ -38,6 +45,27 @@
 Foundation model-based agents have emerged as a transformative paradigm in AI research. Unlike vanilla foundation models, these agents possess **self-evolving capabilities** that enable them to solve real-world problems requiring long-term, complex interactions with their environment.
 
 **Memory** is the cornerstone of these agents—it's what makes an agent truly an *agent*. Memory underpins the ability to perform long-horizon reasoning, adapt continually, and interact effectively with complex environments.
+
+### 📊 Repository Highlights
+
+This repository provides **the most comprehensive collection** of agent memory research, featuring:
+
+- **279+ papers** spanning from foundational works (Neural Turing Machines, 2014) to cutting-edge research (December 2025)
+- **Unified taxonomy** organizing research by Forms × Functions × Dynamics
+- **9+ benchmarks** for evaluating memory capabilities (LoCoMo, LongMemEval, MemBench, etc.)
+- **9+ open-source frameworks** (Mem0, A-MEM, Zep, MemGPT, HippoRAG, etc.)
+- **12+ survey papers** synthesizing the field's evolution
+
+### 🔬 Coverage Areas
+
+| Category | Description | Key Topics |
+|----------|-------------|------------|
+| **🔤 Token-level Memory** | Explicit, discrete text/symbols | RAG, knowledge graphs, episodic stores, conversation history |
+| **⚙️ Parametric Memory** | Knowledge encoded in weights | Model editing, LoRA adapters, continual learning |
+| **🧬 Latent Memory** | Compressed hidden states | KV cache, state space models (Mamba), memory tokens |
+| **🤖 Multi-Agent Memory** | Shared knowledge across agents | G-Memory, collaborative memory, memory-as-a-service |
+| **🏠 Embodied Memory** | Physical world interaction | Spatial memory, episodic navigation, robotic manipulation |
+| **👤 Personalization** | User preference learning | Long-term dialogue, affective memory, user profiles |
 
 This repository synthesizes insights from major surveys on agent memory (see [References](#-references)).
 
@@ -178,6 +206,7 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | MIRIX | 2025 | Multi-agent memory system for LLM-based agents | [[arXiv]](https://arxiv.org/abs/2507.07957) |
 | Hierarchical Memory | 2025 | High-efficiency long-term reasoning in LLM agents | [[arXiv]](https://arxiv.org/abs/2507.22925) |
 | G-Memory | 2025 | Tracing hierarchical memory for multi-agent systems | [[arXiv]](https://arxiv.org/abs/2506.07398) |
+| H-MEM | 2025 | Hierarchical Memory for high-efficiency long-term reasoning in LLM agents | [[arXiv]](https://arxiv.org/abs/2507.22925) |
 | Embodied Agents Meet Personalization | 2025 | Exploring memory utilization for personalized assistance | [[arXiv]](https://arxiv.org/abs/2505.16348) |
 | MemGuide | 2025 | Intent-driven memory selection for goal-oriented multi-session LLM agents | [[arXiv]](https://arxiv.org/abs/2505.20231) |
 | SeCom | 2025 | Memory construction and retrieval for personalized conversational agents | [[OpenReview]](https://openreview.net/forum?id=xKDZAW0He3) |
@@ -561,7 +590,6 @@ This repository synthesizes insights from the following surveys:
 | From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs | 2025 | [[arXiv]](https://arxiv.org/abs/2504.15965) |
 | Retrieval-Augmented Generation for Natural Language Processing: A Survey | 2025 | [[arXiv]](https://arxiv.org/abs/2407.13193) |
 | A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI | 2025 | [[arXiv]](https://arxiv.org/abs/2505.01458) |
-| Memory in the Age of AI Agents: A Survey | 2025 | [[arXiv]](https://arxiv.org/abs/2512.13564) [[GitHub]](https://github.com/Shichun-Liu/Agent-Memory-Paper-List) |
 | A Comprehensive Survey of Continual Learning: Theory, Method and Application | 2024 | [[arXiv]](https://arxiv.org/abs/2302.00487) [[GitHub]](https://github.com/Wang-ML-Lab/llm-continual-learning-survey) |
 | Retrieval-Augmented Generation for Large Language Models: A Survey | 2024 | [[arXiv]](https://arxiv.org/abs/2312.10997) |
 | A Survey on the Memory Mechanism of Large Language Model based Agents | 2024 | [[arXiv]](https://arxiv.org/abs/2404.13501) [[GitHub]](https://github.com/nuster1128/LLM_Agent_Memory_Survey) |
