@@ -12,8 +12,8 @@
 <p align="center">
   <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-279+-blue" alt="Papers"></a>
   <a href="#-benchmarks--evaluation"><img src="https://img.shields.io/badge/Benchmarks-9+-green" alt="Benchmarks"></a>
-  <a href="#-open-source-frameworks"><img src="https://img.shields.io/badge/Frameworks-9+-orange" alt="Frameworks"></a>
-  <a href="#-references"><img src="https://img.shields.io/badge/Surveys-12+-purple" alt="Surveys"></a>
+  <a href="#%EF%B8%8F-open-source-frameworks"><img src="https://img.shields.io/badge/Frameworks-9+-orange" alt="Frameworks"></a>
+  <a href="#-references"><img src="https://img.shields.io/badge/References-13+-purple" alt="References"></a>
 </p>
 
 ---
@@ -54,7 +54,7 @@ This repository provides **the most comprehensive collection** of agent memory r
 - **Unified taxonomy** organizing research by Forms × Functions × Dynamics
 - **9+ benchmarks** for evaluating memory capabilities (LoCoMo, LongMemEval, MemBench, etc.)
 - **9+ open-source frameworks** (Mem0, A-MEM, Zep, MemGPT, HippoRAG, etc.)
-- **12+ survey papers** synthesizing the field's evolution
+- **13+ key references** including surveys synthesizing the field's evolution
 
 ### 🔬 Coverage Areas
 
@@ -577,23 +577,23 @@ Based on current research, promising future directions include:
 
 ## 📚 References
 
-This repository synthesizes insights from the following surveys:
+This repository synthesizes insights from the following surveys and key papers:
 
-| Survey | Year | Links |
-|--------|------|-------|
+| Reference | Year | Links |
+|-----------|------|-------|
 | Memory in the Age of AI Agents: A Survey | 2025 | [[arXiv]](https://arxiv.org/abs/2512.13564) [[GitHub]](https://github.com/Shichun-Liu/Agent-Memory-Paper-List) |
 | Memory-Augmented Transformers: From Neuroscience Principles to Technical Solutions | 2025 | [[arXiv]](https://arxiv.org/abs/2508.10824) |
 | From S4 to Mamba: A Comprehensive Survey on Structured State Space Models | 2025 | [[arXiv]](https://arxiv.org/abs/2503.18970) |
-| Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective | 2025 | [[TechRxiv]](https://www.techrxiv.org/) |
-| KV Cache Compression for Inference Efficiency in LLMs: A Review | 2025 | [[arXiv]](https://arxiv.org/abs/2508.06297) |
-| Continual Learning as Computationally Constrained Reinforcement Learning | 2023 | [[arXiv]](https://arxiv.org/abs/2307.04345) |
 | From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs | 2025 | [[arXiv]](https://arxiv.org/abs/2504.15965) |
 | Retrieval-Augmented Generation for Natural Language Processing: A Survey | 2025 | [[arXiv]](https://arxiv.org/abs/2407.13193) |
 | A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI | 2025 | [[arXiv]](https://arxiv.org/abs/2505.01458) |
+| KV Cache Compression for Inference Efficiency in LLMs: A Survey | 2024 | [[arXiv]](https://arxiv.org/abs/2412.19442) |
 | A Comprehensive Survey of Continual Learning: Theory, Method and Application | 2024 | [[arXiv]](https://arxiv.org/abs/2302.00487) [[GitHub]](https://github.com/Wang-ML-Lab/llm-continual-learning-survey) |
 | Retrieval-Augmented Generation for Large Language Models: A Survey | 2024 | [[arXiv]](https://arxiv.org/abs/2312.10997) |
 | A Survey on the Memory Mechanism of Large Language Model based Agents | 2024 | [[arXiv]](https://arxiv.org/abs/2404.13501) [[GitHub]](https://github.com/nuster1128/LLM_Agent_Memory_Survey) |
 | Robot Learning in the Era of Foundation Models: A Survey | 2023 | [[arXiv]](https://arxiv.org/abs/2311.14379) |
+| Continual Learning as Computationally Constrained Reinforcement Learning | 2023 | [[arXiv]](https://arxiv.org/abs/2307.04345) |
+| Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence | 2025 | [[TechRxiv]](https://www.techrxiv.org/users/810975/articles/1267314-memory-in-llm-based-multi-agent-systems-a-survey-on-mechanisms-challenges-and-collective-intelligence) |
 
 ---
 
