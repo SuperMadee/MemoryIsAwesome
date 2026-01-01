@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-279+-blue" alt="Papers"></a>
-  <a href="#-benchmarks--evaluation"><img src="https://img.shields.io/badge/Benchmarks-9+-green" alt="Benchmarks"></a>
+  <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-320+-blue" alt="Papers"></a>
+  <a href="#-benchmarks--evaluation"><img src="https://img.shields.io/badge/Benchmarks-11+-green" alt="Benchmarks"></a>
   <a href="#%EF%B8%8F-open-source-frameworks"><img src="https://img.shields.io/badge/Frameworks-9+-orange" alt="Frameworks"></a>
   <a href="#-references"><img src="https://img.shields.io/badge/References-13+-purple" alt="References"></a>
 </p>
@@ -50,9 +50,9 @@ Foundation model-based agents have emerged as a transformative paradigm in AI re
 
 This repository provides **the most comprehensive collection** of agent memory research, featuring:
 
-- **279+ papers** spanning from foundational works (Neural Turing Machines, 2014) to cutting-edge research (December 2025)
+- **320+ papers** spanning from foundational works (Neural Turing Machines, 2014) to cutting-edge research (December 2025)
 - **Unified taxonomy** organizing research by Forms × Functions × Dynamics
-- **9+ benchmarks** for evaluating memory capabilities (LoCoMo, LongMemEval, MemBench, etc.)
+- **11+ benchmarks** for evaluating memory capabilities (LoCoMo, LongMemEval, MemBench, LaMP, etc.)
 - **9+ open-source frameworks** (Mem0, A-MEM, Zep, MemGPT, HippoRAG, etc.)
 - **13+ key references** including surveys synthesizing the field's evolution
 
@@ -60,12 +60,12 @@ This repository provides **the most comprehensive collection** of agent memory r
 
 | Category | Description | Key Topics |
 |----------|-------------|------------|
-| **🔤 Token-level Memory** | Explicit, discrete text/symbols | RAG, knowledge graphs, episodic stores, conversation history |
-| **⚙️ Parametric Memory** | Knowledge encoded in weights | Model editing, LoRA adapters, continual learning |
-| **🧬 Latent Memory** | Compressed hidden states | KV cache, state space models (Mamba), memory tokens |
-| **🤖 Multi-Agent Memory** | Shared knowledge across agents | G-Memory, collaborative memory, memory-as-a-service |
-| **🏠 Embodied Memory** | Physical world interaction | Spatial memory, episodic navigation, robotic manipulation |
-| **👤 Personalization** | User preference learning | Long-term dialogue, affective memory, user profiles |
+| **🔤 Token-level Memory** | Explicit, discrete text/symbols | RAG (Self-RAG, CRAG, DPR), knowledge graphs, episodic stores, conversation history |
+| **⚙️ Parametric Memory** | Knowledge encoded in weights | Model editing (ROME, MEMIT, SERAC), LoRA adapters, continual learning (EWC, iCaRL) |
+| **🧬 Latent Memory** | Compressed hidden states | KV cache (StreamingLLM, SnapKV), state space models (Mamba, H3, Hyena, Griffin), memory tokens |
+| **🤖 Multi-Agent Memory** | Shared knowledge across agents | G-Memory, collaborative memory, AgentVerse, AutoGen, memory-as-a-service |
+| **🏠 Embodied Memory** | Physical world interaction | Spatial memory, RT-1/RT-2, PaLM-E, SayCan, robotic manipulation |
+| **👤 Personalization** | User preference learning | Long-term dialogue, LaMP/LongLaMP benchmarks, affective memory, user profiles |
 
 This repository synthesizes insights from major surveys on agent memory (see [References](#-references)).
 
@@ -95,7 +95,7 @@ Agent Memory is distinct from related concepts:
 
 ## 🗂️ Unified Taxonomy
 
-We organize agent memory research through three unified lenses: **Forms**, **Functions**, and **Dynamics**.
+This repository organizes agent memory research through three unified lenses: **Forms**, **Functions**, and **Dynamics**.
 
 ---
 
@@ -238,6 +238,10 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | LLM-Empowered Embodied | 2025 | Memory-augmented task planning for household robotics | [[arXiv]](https://arxiv.org/abs/2504.21716) |
 | Graph2Nav | 2025 | 3D object-relation graph generation for robot navigation | [[arXiv]](https://arxiv.org/abs/2504.16782) |
 | Episodic Memory for Video | 2025 | Episodic memory representation for long-form video understanding | [[arXiv]](https://arxiv.org/abs/2508.09486) |
+| CAM | 2025 | A constructivist view of agentic memory for LLM-based reading comprehension | [[arXiv]](https://arxiv.org/abs/2510.05520) |
+| Pre-training Limited Memory | 2025 | Pre-training limited memory language models with internal and external knowledge | [[arXiv]](https://arxiv.org/abs/2505.15962) |
+| CAMEL | 2023 | Communicative agents for mind exploration of LLM society | [[NeurIPS]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a3621ee907def47c1b952ade25c67571-Abstract-Conference.html) [[GitHub]](https://github.com/camel-ai/camel) |
+| AutoGen | 2023 | Enabling next-gen LLM applications via multi-agent conversation | [[arXiv]](https://arxiv.org/abs/2308.08155) [[GitHub]](https://github.com/microsoft/autogen) |
 | AI PERSONA | 2024 | Towards life-long personalization of LLMs | [[arXiv]](https://arxiv.org/abs/2412.13103) |
 | OASIS | 2024 | Open agent social interaction simulations with one million agents | [[arXiv]](https://arxiv.org/abs/2411.11581) |
 | Memolet | 2024 | Reifying the reuse of user-AI conversational memories | [[ACM]](https://doi.org/10.1145/3654777.3676388) |
@@ -278,6 +282,15 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | CLIP-Fields | 2022 | Weakly supervised semantic fields for robotic memory | [[arXiv]](https://arxiv.org/abs/2210.05663) [[GitHub]](https://github.com/notmahi/clip-fields) |
 | LM-Nav | 2022 | Robotic navigation with large pre-trained models of language, vision, and action | [[arXiv]](https://arxiv.org/abs/2207.04429) |
 | Scene Memory Transformer | 2019 | Scene memory transformer for embodied agents in long-horizon tasks | [[arXiv]](https://arxiv.org/abs/1903.03878) |
+| Self-RAG | 2023 | Learning to retrieve, generate, and critique through self-reflection | [[arXiv]](https://arxiv.org/abs/2310.11511) [[GitHub]](https://github.com/AkariAsai/self-rag) |
+| CRAG | 2024 | Corrective retrieval augmented generation | [[arXiv]](https://arxiv.org/abs/2401.15884) [[GitHub]](https://github.com/HuskyInSalt/CRAG) |
+| FLARE | 2023 | Active retrieval augmented generation | [[arXiv]](https://arxiv.org/abs/2305.06983) [[GitHub]](https://github.com/jzbjyb/FLARE) |
+| DPR | 2020 | Dense passage retrieval for open-domain question answering | [[arXiv]](https://arxiv.org/abs/2004.04906) [[GitHub]](https://github.com/facebookresearch/DPR) |
+| Contriever | 2022 | Unsupervised dense information retrieval with contrastive learning | [[arXiv]](https://arxiv.org/abs/2112.09118) [[GitHub]](https://github.com/facebookresearch/contriever) |
+| REALM | 2020 | Retrieval-augmented language model pre-training | [[arXiv]](https://arxiv.org/abs/2002.08909) |
+| Atlas | 2023 | Few-shot learning with retrieval augmented language models | [[JMLR]](https://www.jmlr.org/papers/v24/23-0037.html) [[GitHub]](https://github.com/facebookresearch/atlas) |
+| kNN-LM | 2020 | Generalization through memorization: nearest neighbor language models | [[ICLR]](https://openreview.net/forum?id=HklBjCEKvH) |
+| LLMLingua | 2023 | Compressing prompts for accelerated inference of LLMs | [[arXiv]](https://arxiv.org/abs/2310.05736) [[GitHub]](https://github.com/microsoft/LLMLingua) |
 
 #### Parametric Factual Memory
 
@@ -297,6 +310,8 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | MoExtend | 2024 | Tuning new experts for modality and task extension | [[arXiv]](https://arxiv.org/abs/2408.03511) [[GitHub]](https://github.com/zhongshsh/MoExtend) |
 | K-Adapter | 2023 | Infusing knowledge into pre-trained models with adapters | [[ACL]](https://doi.org/10.18653/v1/2021.findings-acl.121) |
 | MEND | 2022 | Fast model editing at scale | [[ICLR]](https://openreview.net/forum?id=0DcZxeWfOPt) |
+| MEMIT | 2022 | Mass-editing memory in a Transformer | [[ICLR]](https://openreview.net/forum?id=MkbcAHIYgyS) [[GitHub]](https://github.com/kmeng01/memit) |
+| SERAC | 2022 | Memory-based model editing at scale | [[ICML]](https://proceedings.mlr.press/v162/mitchell22a.html) [[GitHub]](https://github.com/eric-mitchell/serac) |
 | ROME | 2021 | Editing factual knowledge in language models | [[arXiv]](https://arxiv.org/abs/2104.08164) |
 | ELLA | 2013 | An efficient lifelong learning algorithm | [[ICML]](https://proceedings.mlr.press/v28/ruvolo13.html) |
 
@@ -308,6 +323,13 @@ Stores knowledge, facts, user preferences, and world knowledge.
 | HMT | 2025 | Hierarchical Memory Transformer for efficient long context processing | [[arXiv]](https://arxiv.org/abs/2405.06067) |
 | Mamba | 2024 | Linear-time sequence modeling with selective state spaces | [[arXiv]](https://arxiv.org/abs/2312.00752) [[GitHub]](https://github.com/state-spaces/mamba) |
 | Mamba-2 | 2024 | Transformers are SSMs: generalized models and efficient algorithms | [[arXiv]](https://arxiv.org/abs/2405.21060) |
+| RWKV | 2023 | Reinventing RNNs for the Transformer era | [[EMNLP]](https://aclanthology.org/2023.findings-emnlp.936/) [[GitHub]](https://github.com/BlinkDL/RWKV-LM) |
+| RetNet | 2023 | Retentive network: a successor to Transformer for large language models | [[arXiv]](https://arxiv.org/abs/2307.08621) [[GitHub]](https://github.com/microsoft/torchscale) |
+| Jamba | 2024 | A hybrid Transformer-Mamba language model | [[arXiv]](https://arxiv.org/abs/2403.19887) |
+| H3 | 2023 | Hungry Hungry Hippos: towards language modeling with state space models | [[ICLR]](https://openreview.net/forum?id=COZDy0WYGg) [[GitHub]](https://github.com/HazyResearch/H3) |
+| Hyena | 2023 | Hyena hierarchy: towards larger convolutional language models | [[ICML]](https://proceedings.mlr.press/v202/poli23a.html) [[GitHub]](https://github.com/HazyResearch/safari) |
+| Griffin | 2024 | Mixing gated linear recurrences with local attention for efficient LMs | [[arXiv]](https://arxiv.org/abs/2402.19427) |
+| Zamba | 2024 | A compact 7B SSM hybrid model | [[arXiv]](https://arxiv.org/abs/2405.16712) [[GitHub]](https://github.com/Zyphra/Zamba) |
 | An Empirical Study of Mamba | 2024 | 8B-parameter Mamba vs Transformer comparison | [[arXiv]](https://arxiv.org/abs/2406.07887) |
 | General Continuous Memory | 2025 | Towards general continuous memory for vision-language models | [[arXiv]](https://arxiv.org/abs/2505.17670) |
 | M+ | 2025 | Extending MemoryLLM with scalable long-term memory | [[arXiv]](https://arxiv.org/abs/2502.00592) |
@@ -389,6 +411,16 @@ Stores insights, learned skills, and procedural knowledge from past experiences.
 | TPTU-v2 | 2023 | Boosting task planning and tool usage in real-world systems | [[arXiv]](https://arxiv.org/abs/2311.11315) [[GitHub]](https://github.com/OPS-KK2024/TPTU-v2) |
 | CLIN | 2023 | A continually learning language agent for rapid task adaptation | [[arXiv]](https://arxiv.org/abs/2310.10134) [[GitHub]](https://github.com/allenai/clin) |
 | MetaAgents | 2023 | Simulating interactions of human behaviors for LLM-based task-oriented coordination | [[arXiv]](https://arxiv.org/abs/2310.06500) |
+| AgentVerse | 2023 | Facilitating multi-agent collaboration and exploring emergent behaviors | [[arXiv]](https://arxiv.org/abs/2308.10848) [[GitHub]](https://github.com/OpenBMB/AgentVerse) |
+| AutoGPT | 2023 | An autonomous GPT-4 experiment | [[GitHub]](https://github.com/Significant-Gravitas/AutoGPT) |
+| BabyAGI | 2023 | AI-powered task management system | [[GitHub]](https://github.com/yoheinakajima/babyagi) |
+| HuggingGPT | 2023 | Solving AI tasks with ChatGPT and its friends in Hugging Face | [[arXiv]](https://arxiv.org/abs/2303.17580) [[GitHub]](https://github.com/microsoft/JARVIS) |
+| RT-2 | 2023 | Vision-Language-Action models transfer web knowledge to robotic control | [[arXiv]](https://arxiv.org/abs/2307.15818) |
+| RT-1 | 2022 | Robotics Transformer for real-world control at scale | [[arXiv]](https://arxiv.org/abs/2212.06817) [[Website]](https://robotics-transformer1.github.io/) |
+| PaLM-E | 2023 | An embodied multimodal language model | [[arXiv]](https://arxiv.org/abs/2303.03378) |
+| SayCan | 2022 | Do as I can, not as I say: grounding language in robotic affordances | [[arXiv]](https://arxiv.org/abs/2204.01691) [[Website]](https://say-can.github.io/) |
+| Code as Policies | 2022 | Language model programs for embodied control | [[arXiv]](https://arxiv.org/abs/2209.07753) [[Website]](https://code-as-policies.github.io/) |
+| Inner Monologue | 2022 | Embodied reasoning through planning with language models | [[arXiv]](https://arxiv.org/abs/2207.05608) [[Website]](https://innermonologue.github.io/) |
 | Episodic Memory for Robotics | 2021 | Episodic memory model for learning robotic manipulation tasks | [[arXiv]](https://arxiv.org/abs/2104.10218) |
 | Generalizable Episodic Memory | 2021 | Generalizable episodic memory for deep reinforcement learning | [[arXiv]](https://arxiv.org/abs/2103.06469) |
 
@@ -407,6 +439,9 @@ Stores insights, learned skills, and procedural knowledge from past experiences.
 | DualPrompt | 2022 | Complementary prompting for rehearsal-free continual learning | [[arXiv]](https://arxiv.org/abs/2204.04799) [[GitHub]](https://github.com/JH-LEE-KR/dualprompt-pytorch) |
 | L2P | 2022 | Learning to prompt for continual learning | [[arXiv]](https://arxiv.org/abs/2112.08654) [[GitHub]](https://github.com/google-research/l2p) |
 | DualNet | 2021 | Continual learning, fast and slow | [[arXiv]](https://arxiv.org/abs/2110.00175) [[GitHub]](https://github.com/phquang/DualNet) |
+| EWC | 2017 | Overcoming catastrophic forgetting in neural networks | [[PNAS]](https://www.pnas.org/doi/10.1073/pnas.1611835114) |
+| iCaRL | 2017 | Incremental classifier and representation learning | [[CVPR]](https://arxiv.org/abs/1611.07725) [[GitHub]](https://github.com/srebuffi/iCaRL) |
+| Progressive Neural Networks | 2016 | Progressive neural networks for continual learning | [[arXiv]](https://arxiv.org/abs/1606.04671) |
 
 #### Latent Experiential Memory
 
@@ -477,6 +512,11 @@ Manages active context during task execution.
 | Context Compression | 2024 | Adapting language models to compress contexts | [[EMNLP]](https://doi.org/10.18653/v1/2023.emnlp-main.232) |
 | Gist Tokens | 2024 | Learning to compress prompts with gist tokens | [[NeurIPS]](http://papers.nips.cc/paper_files/paper/2023/hash/3d77c6dcc7f143aa2154e7f4d5e22d68-Abstract-Conference.html) |
 | Scissorhands | 2024 | Exploiting the persistence of importance hypothesis for LLM KV cache compression | [[NeurIPS]](http://papers.nips.cc/paper_files/paper/2023/hash/a452a7c6c463e4ae8fbdc614c6e983e6-Abstract-Conference.html) |
+| StreamingLLM | 2024 | Efficient streaming language models with attention sinks | [[ICLR]](https://openreview.net/forum?id=NG7sS51zVF) [[GitHub]](https://github.com/mit-han-lab/streaming-llm) |
+| PyramidKV | 2024 | Dynamic KV cache compression based on pyramidal information funneling | [[arXiv]](https://arxiv.org/abs/2406.02069) [[GitHub]](https://github.com/Zefan-Cai/PyramidKV) |
+| KIVI | 2024 | A tuning-free asymmetric 2bit quantization for KV cache | [[arXiv]](https://arxiv.org/abs/2402.02750) [[GitHub]](https://github.com/jy-yuan/KIVI) |
+| MiniCache | 2024 | KV cache compression in depth dimension for LLMs | [[arXiv]](https://arxiv.org/abs/2405.14366) |
+| CacheGen | 2024 | Fast context loading for language model applications | [[arXiv]](https://arxiv.org/abs/2310.07240) [[GitHub]](https://github.com/LMCache/LMCache) |
 | Focused Transformer | 2024 | Contrastive training for context scaling | [[NeurIPS]](http://papers.nips.cc/paper_files/paper/2023/hash/8511d06d5590f4bda24d42087802cc81-Abstract-Conference.html) |
 | In-Context Autoencoder | 2023 | Context compression in a large language model | [[arXiv]](https://arxiv.org/abs/2307.06945) |
 | Memorizing Transformers | 2022 | Memorizing transformers for long-range attention | [[OpenReview]](https://openreview.net/forum?id=TrjbxzRcnf-) |
@@ -508,6 +548,8 @@ Manages active context during task execution.
 | **HaluMem** | 2025 | Evaluating hallucinations in memory systems | Various | [[arXiv]](https://arxiv.org/abs/2505.00000) |
 | **LoCoMo** | 2024 | Very long-term conversational memory | ~9K tokens, 35 sessions | [[arXiv]](https://arxiv.org/abs/2402.17753) [[Website]](https://snap-research.github.io/locomo/) |
 | **LongMemEval** | 2024 | Long-term interactive memory | ~115K-1.5M tokens | [[arXiv]](https://arxiv.org/abs/2410.10813) [[GitHub]](https://github.com/xiaowu0162/LongMemEval) |
+| **LaMP** | 2023 | Language model personalization benchmark | Various | [[arXiv]](https://arxiv.org/abs/2304.11406) [[GitHub]](https://github.com/LaMP-Benchmark/LaMP) |
+| **LongLaMP** | 2024 | Long-text language model personalization benchmark | Long contexts | [[arXiv]](https://arxiv.org/abs/2407.11016) [[GitHub]](https://github.com/LaMP-Benchmark/LongLaMP) |
 
 ### Evaluation Metrics
 
@@ -544,15 +586,15 @@ Memory mechanisms are crucial across various LLM agent applications:
 | Domain | Description | Key Papers |
 |--------|-------------|------------|
 | **🎭 Role-Playing** | Maintaining consistent character personas over extended interactions | Character-LLM, ChatHaruhi, RoleLLM, CharacterGLM, MOOM |
-| **🌐 Social Simulation** | Simulating human social behaviors at scale | Generative Agents, OASIS, S³, Lyfe Agents |
+| **🌐 Social Simulation** | Simulating human social behaviors at scale | Generative Agents, OASIS, S³, Lyfe Agents, AgentVerse |
 | **🤝 Personal Assistants** | Learning user preferences and providing personalized responses | MemoryBank, Mem0, A-MEM, AI PERSONA, Livia |
 | **🎮 Open-World Games** | Accumulating skills and world knowledge for exploration | Voyager, GITM, JARVIS-1, Minecraft agents |
-| **💻 Code Generation** | Iterative debugging and cross-project learning | ChatDev, MetaGPT, Reflexion, RepairAgent |
+| **💻 Code Generation** | Iterative debugging and cross-project learning | ChatDev, MetaGPT, AutoGPT, Reflexion, RepairAgent |
 | **📊 Recommendation** | Personalizing suggestions based on interaction history | RecMind, InteRecAgent, Recommender AI Agent |
 | **🏥 Expert Systems** | Domain-specific knowledge management | HuaTuo, InvestLM, medical/legal agents |
 | **🌐 Web Agents** | Navigating and automating web tasks | Agent S, SkillWeaver, UFO2, BrowserAgent |
 | **🔬 Scientific Research** | Managing research context and hypotheses | JARVIS-1, Darwin Godel Machine |
-| **🤖 Embodied Agents** | Persistent memory for physical world interaction | Mem2Ego, Embodied VideoAgent, MemoryVLA |
+| **🤖 Embodied Agents** | Persistent memory for physical world interaction | RT-1, RT-2, PaLM-E, SayCan, Mem2Ego, MemoryVLA |
 | **📹 Video Understanding** | Long-term video comprehension | MovieChat, XMem, Context as Memory |
 
 ---
@@ -566,10 +608,10 @@ Based on current research, promising future directions include:
 | **🤖 Memory Automation** | Reducing manual design through learned memory operations (Mem-α, Memory-R1) |
 | **🎯 RL Integration** | Using reinforcement learning for memory optimization |
 | **🖼️ Multimodal Memory** | Extending beyond text to images, audio, and video |
-| **👥 Multi-Agent Memory** | Shared and distributed memory across agent teams (G-Memory) |
+| **👥 Multi-Agent Memory** | Shared and distributed memory across agent teams (G-Memory, AgentVerse, AutoGen) |
 | **🔒 Trustworthiness** | Privacy, security, and reliability of agent memories |
 | **⚡ Efficiency** | Scalable long-term memory for extended operations |
-| **🧪 Standardized Benchmarks** | Unified evaluation protocols (LoCoMo, LongMemEval, MemoryBench) |
+| **🧪 Standardized Benchmarks** | Unified evaluation protocols (LoCoMo, LongMemEval, MemoryBench, LaMP) |
 | **🧠 Cognitive Inspiration** | Drawing from neuroscience (HippoRAG, episodic memory) |
 | **🔄 Self-Evolution** | Agents that continuously improve their own memory systems |
 
