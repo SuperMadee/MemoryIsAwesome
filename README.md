@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-320+-blue" alt="Papers"></a>
+  <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-350+-blue" alt="Papers"></a>
   <a href="#-benchmarks--evaluation"><img src="https://img.shields.io/badge/Benchmarks-11+-green" alt="Benchmarks"></a>
   <a href="#%EF%B8%8F-open-source-frameworks"><img src="https://img.shields.io/badge/Frameworks-9+-orange" alt="Frameworks"></a>
-  <a href="#-references"><img src="https://img.shields.io/badge/References-13+-purple" alt="References"></a>
+  <a href="#-references"><img src="https://img.shields.io/badge/References-15+-purple" alt="References"></a>
 </p>
 
 ---
@@ -50,7 +50,7 @@ Foundation model-based agents have emerged as a transformative paradigm in AI re
 
 This repository collects agent memory research, featuring:
 
-- **320+ papers** spanning from foundational works (Neural Turing Machines, 2014) to recent research (December 2025)
+- **350+ papers** spanning from foundational works (Neural Turing Machines, 2014) to recent research (March 2026)
 - **Unified taxonomy** organizing research by Forms × Functions × Dynamics
 - **11+ benchmarks** for evaluating memory capabilities (LoCoMo, LongMemEval, MemBench, LaMP, etc.)
 - **9+ open-source frameworks** (Mem0, A-MEM, Zep, MemGPT, HippoRAG, etc.)
@@ -197,6 +197,17 @@ Memory dynamics describe the operational lifecycle of memory.
 | MOOM | 2025 | Addresses the unique challenges of maintaining character consistency in extended role-playing scenarios through specialized memory maintenance routines that preserve character traits, plot points, and relationship dynamics across hundreds of dialogue turns. | [[arXiv]](https://arxiv.org/abs/2509.11860) |
 | Multiple Memory Systems | 2025 | Proposes a multi-system memory architecture inspired by human cognitive models, separating episodic, semantic, and procedural memories with distinct storage and retrieval mechanisms for improved long-term agent performance. | [[arXiv]](https://arxiv.org/abs/2508.15294) |
 | Semantic Anchoring | 2025 | Uses linguistic dependency structures and semantic roles as anchors for organizing conversational memory, enabling more precise context retrieval by matching query semantics to stored discourse structures. | [[arXiv]](https://arxiv.org/abs/2508.12630) |
+| AgeMem | 2026 | Unified LTM/STM management integrated into the agent's policy as tool-based actions, enabling autonomous decisions on when to store, retrieve, update, summarize, or discard information. | [[arXiv]](https://arxiv.org/abs/2601.01885) |
+| MAGMA | 2026 | Represents each memory item across orthogonal semantic, temporal, causal, and entity graphs with policy-guided traversal, achieving up to 45.5% higher reasoning accuracy while reducing tokens by 95%. | [[arXiv]](https://arxiv.org/abs/2601.03236) |
+| MemMA | 2026 | Plug-and-play multi-agent framework with a Meta-Thinker that steers memory construction and retrieval, plus a backward path that synthesizes probe QA pairs to self-repair the memory bank. | [[arXiv]](https://arxiv.org/abs/2603.18718) |
+| Memory as Asset | 2026 | Proposes "Memory-as-Asset" paradigm with EvoMap for decentralized knowledge propagation across agents, defining three pillars: Memory in Hand, Memory Group, and Collective Memory Evolution. | [[arXiv]](https://arxiv.org/abs/2603.14212) |
+| Multi-Agent Memory (CompArch) | 2026 | Frames multi-agent memory as a computer architecture problem, distinguishing shared vs. distributed memory paradigms and proposing a three-layer memory hierarchy with coherence protocols. | [[arXiv]](https://arxiv.org/abs/2603.10062) |
+| A-MAC | 2026 | Decomposes memory value into five interpretable factors (future utility, factual confidence, semantic novelty, temporal recency, content type prior) and uses linear weighted scoring for admission decisions. | [[arXiv]](https://arxiv.org/abs/2603.04549) |
+| ARM | 2026 | Replaces static vector index with dynamic memory governed by consolidation and decay, where frequently retrieved items are protected and rarely used items gradually forgotten. | [[arXiv]](https://arxiv.org/abs/2601.02428) |
+| A-RAG | 2026 | Scales agentic RAG via hierarchical retrieval interfaces exposing three levels (keyword_search, semantic_search, chunk_read) directly to the model for adaptive multi-granularity search. | [[arXiv]](https://arxiv.org/abs/2602.03442) |
+| GAM-RAG | 2026 | Gain-adaptive memory mechanism for RAG that adjusts retrieval strategy based on evolving information needs during generation. | [[arXiv]](https://arxiv.org/abs/2603.01783) |
+| Structured Linked Data Memory | 2026 | Uses Schema.org markup and dereferenceable entity pages as structured memory layer to improve retrieval accuracy in both standard and agentic RAG systems. | [[arXiv]](https://arxiv.org/abs/2603.10700) |
+| RF-Mem | 2026 | Dual-path memory retriever inspired by cognitive dual-process theory combining fast Familiarity recognition with deliberate Recollection chain reconstruction. | [[arXiv]](https://arxiv.org/abs/2603.09250) |
 | Recommender AI Agent | 2025 | Combines LLM reasoning with user interaction history to provide contextually-aware recommendations, maintaining memory of user preferences, past interactions, and feedback to improve recommendation relevance over time. | [[ACM]](https://doi.org/10.1145/3731446) |
 | ComoRAG | 2025 | Organizes retrieved information using cognitive memory principles (episodic, semantic, working memory) to maintain narrative state across complex multi-turn reasoning tasks, improving coherence in story understanding and question answering. | [[arXiv]](https://arxiv.org/abs/2508.10419) |
 | Seeing, Listening, Remembering | 2025 | Extends agent memory to handle multimodal inputs (vision, audio, text), creating unified memory representations that enable cross-modal retrieval and reasoning for more comprehensive environmental understanding. | [[arXiv]](https://arxiv.org/abs/2508.09736) |
@@ -408,6 +419,13 @@ Memory dynamics describe the operational lifecycle of memory.
 | Voyager | 2023 | Creates an open-ended Minecraft agent that continuously expands its skill library through exploration, storing discovered programs in memory for reuse. | [[arXiv]](https://arxiv.org/abs/2305.16291) [[Website]](https://voyager.minedojo.org/) |
 | GITM | 2023 | Develops generally capable Minecraft agents with hierarchical memory of goals, plans, and learned skills for flexible behavior in open-ended environments. | [[arXiv]](https://arxiv.org/abs/2305.17144) [[GitHub]](https://github.com/OpenGVLab/GITM) |
 | Synapse | 2023 | Uses past successful computer control trajectories as in-context examples, enabling task completion through trajectory memory retrieval. | [[Website]](https://ltzheng.github.io/Synapse/) |
+| MemRL | 2026 | Non-parametric agent evolution via RL on episodic memory with a two-phase retrieval mechanism that reconciles the stability-plasticity dilemma without weight updates. | [[arXiv]](https://arxiv.org/abs/2601.03192) |
+| MemEvolve | 2025 | Meta-evolutionary framework that jointly evolves agents' experiential knowledge and their memory architecture itself, improving frameworks like SmolAgent by up to 17%. | [[arXiv]](https://arxiv.org/abs/2512.18746) |
+| EchoVLA | 2025 | VLA model with scene memory (spatial-semantic maps) and episodic memory (task-level experiences with multimodal features) for long-horizon mobile manipulation. | [[arXiv]](https://arxiv.org/abs/2511.18112) |
+| PhysMem | 2026 | Three-tier memory (episodic raw experiences, working memory hypotheses, long-term verified principles) enabling VLM robot planners to learn physics from interaction without parameter updates. | [[arXiv]](https://arxiv.org/abs/2602.20323) |
+| MACLA | 2025 | Hierarchical procedural memory via Bayesian selection and contrastive refinement that compresses 2851 trajectories into 187 reusable procedures in 56 seconds. | [[arXiv]](https://arxiv.org/abs/2512.18950) |
+| CodeMem | 2025 | Implements procedural memory as validated code, where agents write, validate, and save successful logic into a persistent procedural memory bank for deterministic reuse. | [[arXiv]](https://arxiv.org/abs/2512.15813) |
+| CoMAM | 2026 | Multi-agent system with local and global rewards enabling end-to-end RL optimization with simultaneous updates of heterogeneous policies for personalized memory. | [[arXiv]](https://arxiv.org/abs/2603.12631) |
 | ReAct | 2023 | Interleaves reasoning traces with actions, storing thought-action-observation sequences that demonstrate effective problem-solving strategies. | [[arXiv]](https://arxiv.org/abs/2210.03629) [[GitHub]](https://github.com/ysymyth/ReAct) |
 | TPTU | 2023 | Integrates task planning with tool usage through memory of successful plan-tool combinations for complex task completion. | [[arXiv]](https://arxiv.org/abs/2308.03427) |
 | TPTU-v2 | 2023 | Extends task planning with improved memory mechanisms for real-world deployment, handling uncertainty through experience-based fallbacks. | [[arXiv]](https://arxiv.org/abs/2311.11315) [[GitHub]](https://github.com/OPS-KK2024/TPTU-v2) |
@@ -432,6 +450,7 @@ Memory dynamics describe the operational lifecycle of memory.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
+| SleepGate | 2026 | Augments transformers with a learned sleep cycle over the KV cache for synaptic downscaling, selective replay, and targeted forgetting, reducing interference horizon from O(n) to O(log n). | [[arXiv]](https://arxiv.org/abs/2603.14517) |
 | AgentEvolver | 2025 | Enables agents to evolve their own capabilities through parameter updates based on task performance, achieving self-improvement without human intervention. | [[arXiv]](https://arxiv.org/abs/2511.10395) |
 | Agent Learning via Early Experience | 2025 | Prioritizes learning from early interaction experiences that shape foundational agent behaviors, similar to critical periods in biological development. | [[arXiv]](https://arxiv.org/abs/2510.08558) |
 | Scaling Agents via Continual Pre-training | 2025 | Scales agent capabilities through continual pre-training on agent trajectories, encoding procedural knowledge directly into model parameters. | [[arXiv]](https://arxiv.org/abs/2509.13310) |
@@ -492,6 +511,12 @@ Memory dynamics describe the operational lifecycle of memory.
 
 | Paper | Year | Description | Links |
 |-------|------|-------------|-------|
+| GVote | 2026 | Eliminates manual budget specification for KV cache via query sampling and voting, achieving 0.35 accuracy with only 10% memory on Multi-Doc QA. | [[arXiv]](https://arxiv.org/abs/2509.03136) |
+| SemantiCache | 2026 | Partitions KV cache into semantically coherent chunks and applies greedy seed-based clustering to preserve semantic integrity during compression. | [[arXiv]](https://arxiv.org/abs/2603.14303) |
+| VQKV | 2026 | Applies vector quantization to KV representations, achieving 82.8% compression on LLaMA3.1-8B while retaining 98.6% baseline performance. | [[arXiv]](https://arxiv.org/abs/2603.16435) |
+| EchoKV | 2026 | Flexible KV cache compression enabling on-demand transitions between standard and compressed inference via similarity-based reconstruction. | [[arXiv]](https://arxiv.org/abs/2603.22910) |
+| Mixture of Chapters | 2026 | Learnable sparse memory banks of latent tokens queried via cross-attention with chapter-based MoE routing, scaling to 262K memory tokens. | [[arXiv]](https://arxiv.org/abs/2603.21096) |
+| Latent Context Compilation | 2026 | Distills long contexts into compact buffer tokens via a disposable LoRA compiler, creating portable memory artifacts compatible with frozen base models. | [[arXiv]](https://arxiv.org/abs/2602.21221) |
 | EvicPress | 2025 | Jointly optimizes KV cache compression and eviction strategies for efficient LLM inference, balancing memory usage with generation quality. | [[arXiv]](https://arxiv.org/abs/2512.14946) |
 | ChunkKV | 2025 | Compresses KV cache by grouping semantically similar tokens into chunks, preserving attention patterns while reducing memory footprint. | [[arXiv]](https://arxiv.org/abs/2502.00299) |
 | ClusterKV | 2024 | Clusters KV cache entries in semantic space for compression while maintaining ability to recall detailed information when needed. | [[arXiv]](https://arxiv.org/abs/2412.03213) |
@@ -545,6 +570,7 @@ Memory dynamics describe the operational lifecycle of memory.
 
 | Benchmark | Year | Focus | Context Length | Links |
 |-----------|------|-------|----------------|-------|
+| **PERMA** | 2026 | Persona consistency over temporally ordered multi-session interactions | Various | [[arXiv]](https://arxiv.org/abs/2603.23231) |
 | **Evo-Memory** | 2025 | Self-evolving memory and test-time learning | Various | [[arXiv]](https://arxiv.org/abs/2511.20857) |
 | **MemBench** | 2025 | Comprehensive memory evaluation (effectiveness, efficiency, capacity) | Various | [[arXiv]](https://arxiv.org/abs/2506.21605) |
 | **FindingDory** | 2025 | Memory evaluation in embodied agents | Various | [[arXiv]](https://arxiv.org/abs/2506.15635) [[HuggingFace]](https://huggingface.co/yali30/findingdory-qwen2.5-VL-3B-finetuned) |
@@ -600,7 +626,7 @@ Memory mechanisms are used across various LLM agent applications:
 | **🏥 Expert Systems** | Domain-specific knowledge management | HuaTuo, InvestLM, medical/legal agents |
 | **🌐 Web Agents** | Navigating and automating web tasks | Agent S, SkillWeaver, UFO2, BrowserAgent |
 | **🔬 Scientific Research** | Managing research context and hypotheses | JARVIS-1, Darwin Godel Machine |
-| **🤖 Embodied Agents** | Persistent memory for physical world interaction | RT-1, RT-2, PaLM-E, SayCan, Mem2Ego, MemoryVLA |
+| **🤖 Embodied Agents** | Persistent memory for physical world interaction | RT-1, RT-2, PaLM-E, SayCan, Mem2Ego, MemoryVLA, EchoVLA, PhysMem |
 | **📹 Video Understanding** | Long-term video comprehension | MovieChat, XMem, Context as Memory |
 
 ---
@@ -614,7 +640,7 @@ Based on current research, future directions include:
 | **🤖 Memory Automation** | Reducing manual design through learned memory operations (Mem-α, Memory-R1) |
 | **🎯 RL Integration** | Using reinforcement learning for memory optimization |
 | **🖼️ Multimodal Memory** | Extending beyond text to images, audio, and video |
-| **👥 Multi-Agent Memory** | Shared and distributed memory across agent teams (G-Memory, AgentVerse, AutoGen) |
+| **👥 Multi-Agent Memory** | Shared and distributed memory across agent teams (G-Memory, MAGMA, MemMA, CoMAM, Memory as Asset) |
 | **🔒 Trustworthiness** | Privacy, security, and reliability of agent memories |
 | **⚡ Efficiency** | Scalable long-term memory for extended operations |
 | **🧪 Standardized Benchmarks** | Unified evaluation protocols (LoCoMo, LongMemEval, MemoryBench, LaMP) |
@@ -641,6 +667,8 @@ This repository synthesizes insights from the following surveys and papers:
 - [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501) (2024) [[GitHub]](https://github.com/nuster1128/LLM_Agent_Memory_Survey)
 - [Robot Learning in the Era of Foundation Models: A Survey](https://arxiv.org/abs/2311.14379) (2023)
 - [Memory in LLM-based Multi-agent Systems: Mechanisms, Challenges, and Collective Intelligence](https://www.techrxiv.org/users/810975/articles/1267314-memory-in-LLM-based-multi-agent-systems-a-survey-on-mechanisms-challenges-and-collective-intelligence) (2025)
+- [Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers](https://arxiv.org/abs/2603.07670) (2026)
+- [Continual Learning in LLMs: Methods, Challenges, and Opportunities](https://arxiv.org/abs/2603.12658) (2026)
 
 **Papers**
 
