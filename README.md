@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-350+-blue" alt="Papers"></a>
-  <a href="#-benchmarks--evaluation"><img src="https://img.shields.io/badge/Benchmarks-11+-green" alt="Benchmarks"></a>
+  <a href="#-paper-collection"><img src="https://img.shields.io/badge/Papers-360+-blue" alt="Papers"></a>
+  <a href="#-benchmarks--evaluation"><img src="https://img.shields.io/badge/Benchmarks-13+-green" alt="Benchmarks"></a>
   <a href="#%EF%B8%8F-open-source-frameworks"><img src="https://img.shields.io/badge/Frameworks-9+-orange" alt="Frameworks"></a>
   <a href="#-references"><img src="https://img.shields.io/badge/References-15+-purple" alt="References"></a>
 </p>
@@ -197,6 +197,11 @@ Memory dynamics describe the operational lifecycle of memory.
 | MOOM | 2025 | Addresses the unique challenges of maintaining character consistency in extended role-playing scenarios through specialized memory maintenance routines that preserve character traits, plot points, and relationship dynamics across hundreds of dialogue turns. | [[arXiv]](https://arxiv.org/abs/2509.11860) |
 | Multiple Memory Systems | 2025 | Proposes a multi-system memory architecture inspired by human cognitive models, separating episodic, semantic, and procedural memories with distinct storage and retrieval mechanisms for improved long-term agent performance. | [[arXiv]](https://arxiv.org/abs/2508.15294) |
 | Semantic Anchoring | 2025 | Uses linguistic dependency structures and semantic roles as anchors for organizing conversational memory, enabling more precise context retrieval by matching query semantics to stored discourse structures. | [[arXiv]](https://arxiv.org/abs/2508.12630) |
+| Multi-Layered Memory | 2026 | Decomposes dialogue history into working, episodic, and semantic layers with adaptive retrieval gating and retention regularization, controlling cross-session drift while maintaining bounded context growth. | [[arXiv]](https://arxiv.org/abs/2603.29194) |
+| Anatomy of Agentic Memory | 2026 | Taxonomy and empirical analysis of evaluation and system limitations for agentic memory, identifying gaps between current benchmarks and real-world agentic requirements. | [[arXiv]](https://arxiv.org/abs/2602.19320) |
+| LRAgent | 2026 | KV cache sharing framework for multi-LoRA agents that decomposes cache into shared base and adapter-dependent components with Flash-LoRA-Attention kernel, reducing memory overhead for multi-agent systems. | [[arXiv]](https://arxiv.org/abs/2602.01053) |
+| Agent Memory Below the Prompt | 2026 | Persists each agent's KV cache to disk in 4-bit quantized format for multi-agent LLM inference on edge devices, eliminating redundant prefill computation via direct cache restoration. | [[arXiv]](https://arxiv.org/abs/2603.04428) [[GitHub]](https://github.com/yshk-mxim/agent-memory) |
+| Memento 2 | 2025 | Learning by stateful reflective memory with continual experiential updates, extending the original Memento framework with structured memory states. | [[arXiv]](https://arxiv.org/abs/2512.22716) |
 | AgeMem | 2026 | Unified LTM/STM management integrated into the agent's policy as tool-based actions, enabling autonomous decisions on when to store, retrieve, update, summarize, or discard information. | [[arXiv]](https://arxiv.org/abs/2601.01885) |
 | MAGMA | 2026 | Represents each memory item across orthogonal semantic, temporal, causal, and entity graphs with policy-guided traversal, achieving up to 45.5% higher reasoning accuracy while reducing tokens by 95%. | [[arXiv]](https://arxiv.org/abs/2601.03236) [[GitHub]](https://github.com/FredJiang0324/MAMGA) |
 | MemMA | 2026 | Plug-and-play multi-agent framework with a Meta-Thinker that steers memory construction and retrieval, plus a backward path that synthesizes probe QA pairs to self-repair the memory bank. | [[arXiv]](https://arxiv.org/abs/2603.18718) [[GitHub]](https://github.com/ventr1c/memma) |
@@ -571,6 +576,8 @@ Memory dynamics describe the operational lifecycle of memory.
 | Benchmark | Year | Focus | Context Length | Links |
 |-----------|------|-------|----------------|-------|
 | **PERMA** | 2026 | Persona consistency over temporally ordered multi-session interactions | Various | [[arXiv]](https://arxiv.org/abs/2603.23231) [[GitHub]](https://github.com/PolarisLiu1/PERMA) |
+| **AMA-Bench** | 2026 | Long-horizon memory for agentic applications with arbitrary-length trajectories | Various | [[arXiv]](https://arxiv.org/abs/2602.22769) |
+| **EMemBench** | 2026 | Interactive benchmarking of episodic memory for VLM agents | Various | [[arXiv]](https://arxiv.org/abs/2601.16690) |
 | **Evo-Memory** | 2025 | Self-evolving memory and test-time learning | Various | [[arXiv]](https://arxiv.org/abs/2511.20857) |
 | **MemBench** | 2025 | Comprehensive memory evaluation (effectiveness, efficiency, capacity) | Various | [[arXiv]](https://arxiv.org/abs/2506.21605) |
 | **FindingDory** | 2025 | Memory evaluation in embodied agents | Various | [[arXiv]](https://arxiv.org/abs/2506.15635) [[HuggingFace]](https://huggingface.co/yali30/findingdory-qwen2.5-VL-3B-finetuned) |
