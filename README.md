@@ -606,6 +606,7 @@ Memory dynamics describe the operational lifecycle of memory.
 
 | Framework | Year | Description | Links |
 |-----------|------|-------------|-------|
+| **LWC** | 2026 | Proactive, source-grounded project memory for coding agents with immutable sources, citations, provenance, SQLite/FTS5 retrieval, and optional document and code graphs | [[GitHub]](https://github.com/JanYork/llm-wiki-cli) [[Docs]](https://janyork.github.io/llm-wiki-cli/) |
 | **Mem0** | 2025 | Production-ready memory for AI agents with graph-based storage | [[GitHub]](https://github.com/mem0ai/mem0) [[arXiv]](https://arxiv.org/abs/2504.19413) |
 | **A-MEM** | 2025 | Agentic memory with Zettelkasten-inspired organization | [[GitHub]](https://github.com/agiresearch/A-mem) [[arXiv]](https://arxiv.org/abs/2502.12110) |
 | **Zep/Graphiti** | 2025 | Temporal knowledge graph for agent memory | [[GitHub]](https://github.com/getzep/zep) [[arXiv]](https://arxiv.org/abs/2501.13956) |
