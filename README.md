@@ -606,7 +606,7 @@ Memory dynamics describe the operational lifecycle of memory.
 
 | Framework | Year | Description | Links |
 |-----------|------|-------------|-------|
-| **Hyperconsciousness** | 2026 | MIT-licensed developer-alpha Rust knowledge store for agents, with signed, encrypted, append-only records, device sync, and scoped, expiring grants through CLI/MCP/HTTP interfaces. Requires a source build. | [[GitHub]](https://github.com/louis030195/hyperconsciousness) |
+| **Hyperconsciousness** | 2026 | MIT-licensed developer-alpha Rust knowledge store for agents, with signed, encrypted, append-only records, device sync, and scoped, expiring grants through CLI/MCP/HTTP interfaces. Source build instructions and alpha release binaries are available. | [[GitHub]](https://github.com/louis030195/hyperconsciousness) |
 | **LWC** | 2026 | Proactive, source-grounded project memory for coding agents with immutable sources, citations, provenance, SQLite/FTS5 retrieval, and optional document and code graphs | [[GitHub]](https://github.com/JanYork/llm-wiki-cli) [[Docs]](https://janyork.github.io/llm-wiki-cli/) |
 | **Mem0** | 2025 | Production-ready memory for AI agents with graph-based storage | [[GitHub]](https://github.com/mem0ai/mem0) [[arXiv]](https://arxiv.org/abs/2504.19413) |
 | **A-MEM** | 2025 | Agentic memory with Zettelkasten-inspired organization | [[GitHub]](https://github.com/agiresearch/A-mem) [[arXiv]](https://arxiv.org/abs/2502.12110) |
