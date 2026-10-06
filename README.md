@@ -1,7 +1,5 @@
-<h1 align="center">🧠 Memory is Awesome</h1>
-
 <p align="center">
-  <strong>Your Guide to Memory in Foundation Model Agents</strong>
+  <img src="figures/header.svg" alt="Memory is Awesome: Your Guide to Memory in Foundation Model Agents" width="840">
 </p>
 
 <p align="center">
@@ -111,6 +109,10 @@ Agent Memory is distinct from related concepts:
 
 This repository organizes agent memory research through three unified lenses: **Forms**, **Functions**, and **Dynamics**.
 
+<p align="center">
+  <img src="figures/memory-taxonomy.svg" alt="Animated grid of memory forms (token-level, parametric, latent) against memory functions (factual, experiential, working) with example systems" width="840">
+</p>
+
 ---
 
 ### 📦 Memory Forms (What Carries Memory?)
@@ -173,6 +175,10 @@ Memory functions categorize WHAT purpose the memory serves.
 ### 🔄 Memory Dynamics (How Memory Evolves?)
 
 Memory dynamics describe the operational lifecycle of memory.
+
+<p align="center">
+  <img src="figures/memory-lifecycle.svg" alt="Animated memory lifecycle: experience flows through formation, evolution and retrieval, then back to the agent" width="840">
+</p>
 
 | Phase | Symbol | Description | Strategies |
 |-------|--------|-------------|------------|
@@ -675,6 +681,10 @@ Memory dynamics describe the operational lifecycle of memory.
 ## 🧭 Spatial Memory for Mobile Robots
 
 > **Spatial memory** is what lets a mobile robot answer "where am I, what is where, and where did I last see it?" after the observation has left its field of view. It spans dense metric-semantic maps, 3D scene graphs, topological and episodic stores, and the implicit memory inside navigation foundation models. This section covers wheeled and legged robots, drones, and mobile manipulators across object-goal and instance navigation, vision-language navigation (VLN), embodied question answering (EQA), and mobile manipulation.
+
+<p align="center">
+  <img src="figures/spatial-memory.svg" alt="Animation of a robot exploring two rooms, building a map and a scene graph, then answering where the mug is" width="840">
+</p>
 
 For a focused treatment of the representations and their on-robot memory cost, see [A Survey of Spatial Memory Representations for Efficient Robot Navigation](https://arxiv.org/abs/2604.16482) (2026).
 
