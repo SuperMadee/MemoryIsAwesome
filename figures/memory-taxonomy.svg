@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" width="840" height="340" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<title id="t">Memory taxonomy</title><desc id="d">A three by three grid of memory forms (token-level, parametric, latent) against memory functions (factual, experiential, working), with example systems in each cell highlighted in turn.</desc>
+<style>
+text{fill:#1f2328} .m{fill:#656d76} .h{font-weight:600}
+.cell{opacity:0;animation:c 9s ease-in-out infinite}@keyframes c{0%,1%{opacity:0}4%,10%{opacity:1}14%,100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important} .mv{display:none}}
+</style>
+<rect x="1" y="1" width="838" height="338" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<text x="40" y="42" font-size="18" class="h">Forms × Functions: where each paper lives</text>
+<text x="296.0" y="72" text-anchor="middle" font-size="15" class="h" style="fill:#0969da">Factual</text><text x="296.0" y="88" text-anchor="middle" font-size="11.5" class="m">what do I know?</text>
+<text x="496.0" y="72" text-anchor="middle" font-size="15" class="h" style="fill:#1a7f37">Experiential</text><text x="496.0" y="88" text-anchor="middle" font-size="11.5" class="m">what have I done?</text>
+<text x="696.0" y="72" text-anchor="middle" font-size="15" class="h" style="fill:#bc4c00">Working</text><text x="696.0" y="88" text-anchor="middle" font-size="11.5" class="m">what am I doing now?</text>
+<text x="40" y="130" font-size="15" class="h">Token-level</text><text x="40" y="148" font-size="11.5" class="m">explicit text and symbols</text>
+<rect x="200" y="100" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:0s" x="200" y="100" width="192" height="66" rx="9" fill="#0969da" fill-opacity=".12" stroke="#0969da" stroke-width="2"/><text x="296.0" y="138.0" text-anchor="middle" font-size="12.5">Mem0 · Zep · HippoRAG</text>
+<rect x="400" y="100" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:1s" x="400" y="100" width="192" height="66" rx="9" fill="#1a7f37" fill-opacity=".12" stroke="#1a7f37" stroke-width="2"/><text x="496.0" y="138.0" text-anchor="middle" font-size="12.5">Reflexion · Voyager · ExpeL</text>
+<rect x="600" y="100" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:2s" x="600" y="100" width="192" height="66" rx="9" fill="#bc4c00" fill-opacity=".12" stroke="#bc4c00" stroke-width="2"/><text x="696.0" y="138.0" text-anchor="middle" font-size="12.5">AgentFold · ACON · ReSum</text>
+<text x="40" y="204" font-size="15" class="h">Parametric</text><text x="40" y="222" font-size="11.5" class="m">in model weights</text>
+<rect x="200" y="174" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:3s" x="200" y="174" width="192" height="66" rx="9" fill="#0969da" fill-opacity=".12" stroke="#0969da" stroke-width="2"/><text x="296.0" y="212.0" text-anchor="middle" font-size="12.5">ROME · MEMIT · WISE</text>
+<rect x="400" y="174" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:4s" x="400" y="174" width="192" height="66" rx="9" fill="#1a7f37" fill-opacity=".12" stroke="#1a7f37" stroke-width="2"/><text x="496.0" y="212.0" text-anchor="middle" font-size="12.5">EWC · Retroformer · HOPE</text>
+<rect x="600" y="174" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:5s" x="600" y="174" width="192" height="66" rx="9" fill="#bc4c00" fill-opacity=".12" stroke="#bc4c00" stroke-width="2"/><text x="696.0" y="212.0" text-anchor="middle" font-size="12.5">TTT-E2E · Miras</text>
+<text x="40" y="278" font-size="15" class="h">Latent</text><text x="40" y="296" font-size="11.5" class="m">hidden states</text>
+<rect x="200" y="248" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:6s" x="200" y="248" width="192" height="66" rx="9" fill="#0969da" fill-opacity=".12" stroke="#0969da" stroke-width="2"/><text x="296.0" y="286.0" text-anchor="middle" font-size="12.5">Mamba · RWKV · Memory³</text>
+<rect x="400" y="248" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:7s" x="400" y="248" width="192" height="66" rx="9" fill="#1a7f37" fill-opacity=".12" stroke="#1a7f37" stroke-width="2"/><text x="496.0" y="286.0" text-anchor="middle" font-size="12.5">ElasticMem · Mem-W</text>
+<rect x="600" y="248" width="192" height="66" rx="9" fill="#f6f8fa" stroke="#d0d7de"/><rect class="cell" style="animation-delay:8s" x="600" y="248" width="192" height="66" rx="9" fill="#bc4c00" fill-opacity=".12" stroke="#bc4c00" stroke-width="2"/><text x="696.0" y="286.0" text-anchor="middle" font-size="12.5">SnapKV · KVzip · Titans</text>
+
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="840" height="220" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<title id="t">Memory is Awesome</title><desc id="d">Animated banner: signals travelling through a network of memory nodes.</desc>
+<style>
+text{fill:#1f2328} .m{fill:#656d76} .h{font-weight:600}
+.pulse{transform-box:fill-box;transform-origin:center;animation:p 3.5s ease-in-out infinite}@keyframes p{0%,100%{transform:scale(.6);opacity:.08}50%{transform:scale(1.5);opacity:.28}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important} .mv{display:none}}
+</style>
+<rect x="1" y="1" width="838" height="218" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<path id="e0" d="M470 60L540 118" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e1" d="M470 60L600 52" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e2" d="M540 118L585 112" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e3" d="M600 52L585 112" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e4" d="M585 112L660 128" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e5" d="M600 52L720 66" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e6" d="M660 128L720 66" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e7" d="M720 66L780 120" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e8" d="M540 118L520 170" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e9" d="M520 170L640 180" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e10" d="M660 128L640 180" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e11" d="M640 180L752 172" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e12" d="M780 120L752 172" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e13" d="M660 128L752 172" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<path id="e14" d="M585 112L640 180" stroke="#d0d7de" stroke-width="1.5" fill="none"/>
+<circle class="mv" r="3" fill="#0969da"><animateMotion dur="2.2s" begin="0.00s" repeatCount="indefinite"><mpath href="#e0"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#1a7f37"><animateMotion dur="2.7s" begin="0.37s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#bc4c00"><animateMotion dur="3.2s" begin="0.74s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#8250df"><animateMotion dur="3.7s" begin="1.11s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#0969da"><animateMotion dur="4.2s" begin="1.48s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#1a7f37"><animateMotion dur="2.2s" begin="1.85s" repeatCount="indefinite"><mpath href="#e5"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#bc4c00"><animateMotion dur="2.7s" begin="2.22s" repeatCount="indefinite"><mpath href="#e6"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#8250df"><animateMotion dur="3.2s" begin="2.59s" repeatCount="indefinite"><mpath href="#e7"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#0969da"><animateMotion dur="3.7s" begin="2.96s" repeatCount="indefinite"><mpath href="#e8"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#1a7f37"><animateMotion dur="4.2s" begin="0.33s" repeatCount="indefinite"><mpath href="#e9"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#bc4c00"><animateMotion dur="2.2s" begin="0.70s" repeatCount="indefinite"><mpath href="#e10"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#8250df"><animateMotion dur="2.7s" begin="1.07s" repeatCount="indefinite"><mpath href="#e11"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#0969da"><animateMotion dur="3.2s" begin="1.44s" repeatCount="indefinite"><mpath href="#e12"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#1a7f37"><animateMotion dur="3.7s" begin="1.81s" repeatCount="indefinite"><mpath href="#e13"/></animateMotion></circle>
+<circle class="mv" r="3" fill="#bc4c00"><animateMotion dur="4.2s" begin="2.18s" repeatCount="indefinite"><mpath href="#e14"/></animateMotion></circle>
+<circle cx="470" cy="60" r="13" fill="#0969da" opacity=".14" class="pulse" style="animation-delay:0.00s"/><circle cx="470" cy="60" r="6" fill="#f6f8fa" stroke="#0969da" stroke-width="2"/>
+<circle cx="540" cy="118" r="13" fill="#1a7f37" opacity=".14" class="pulse" style="animation-delay:0.35s"/><circle cx="540" cy="118" r="6" fill="#f6f8fa" stroke="#1a7f37" stroke-width="2"/>
+<circle cx="600" cy="52" r="13" fill="#bc4c00" opacity=".14" class="pulse" style="animation-delay:0.70s"/><circle cx="600" cy="52" r="6" fill="#f6f8fa" stroke="#bc4c00" stroke-width="2"/>
+<circle cx="660" cy="128" r="13" fill="#8250df" opacity=".14" class="pulse" style="animation-delay:1.05s"/><circle cx="660" cy="128" r="6" fill="#f6f8fa" stroke="#8250df" stroke-width="2"/>
+<circle cx="720" cy="66" r="13" fill="#0969da" opacity=".14" class="pulse" style="animation-delay:1.40s"/><circle cx="720" cy="66" r="6" fill="#f6f8fa" stroke="#0969da" stroke-width="2"/>
+<circle cx="780" cy="120" r="13" fill="#1a7f37" opacity=".14" class="pulse" style="animation-delay:1.75s"/><circle cx="780" cy="120" r="6" fill="#f6f8fa" stroke="#1a7f37" stroke-width="2"/>
+<circle cx="520" cy="170" r="13" fill="#bc4c00" opacity=".14" class="pulse" style="animation-delay:2.10s"/><circle cx="520" cy="170" r="6" fill="#f6f8fa" stroke="#bc4c00" stroke-width="2"/>
+<circle cx="640" cy="180" r="13" fill="#8250df" opacity=".14" class="pulse" style="animation-delay:2.45s"/><circle cx="640" cy="180" r="6" fill="#f6f8fa" stroke="#8250df" stroke-width="2"/>
+<circle cx="752" cy="172" r="13" fill="#0969da" opacity=".14" class="pulse" style="animation-delay:2.80s"/><circle cx="752" cy="172" r="6" fill="#f6f8fa" stroke="#0969da" stroke-width="2"/>
+<circle cx="585" cy="112" r="13" fill="#1a7f37" opacity=".14" class="pulse" style="animation-delay:3.15s"/><circle cx="585" cy="112" r="6" fill="#f6f8fa" stroke="#1a7f37" stroke-width="2"/>
+<text x="40" y="92" font-size="38" class="h">Memory is Awesome</text>
+<text x="40" y="124" font-size="16" class="m">Your guide to memory in foundation model agents</text>
+<g font-size="12.5" class="h">
+<rect x="40" y="148" width="64" height="26" rx="13" fill="none" stroke="#0969da"/><text x="72" y="165" text-anchor="middle" style="fill:#0969da">Forms</text>
+<rect x="112" y="148" width="86" height="26" rx="13" fill="none" stroke="#1a7f37"/><text x="155" y="165" text-anchor="middle" style="fill:#1a7f37">Functions</text>
+<rect x="206" y="148" width="86" height="26" rx="13" fill="none" stroke="#bc4c00"/><text x="249" y="165" text-anchor="middle" style="fill:#bc4c00">Dynamics</text>
+<rect x="300" y="148" width="120" height="26" rx="13" fill="none" stroke="#8250df"/><text x="360" y="165" text-anchor="middle" style="fill:#8250df">Spatial Memory</text>
+</g>
+</svg>
